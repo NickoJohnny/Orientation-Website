@@ -1,0 +1,72 @@
+
+
+.bigButton {
+	font-size: 50px;
+	border-style: solid;
+	padding: 30px;
+}
+
+.buttonContainer{
+	padding-top: 20px;
+}
+
+.backButton{
+	float: right;
+}
+
+.homeButton{
+	float: right;
+}
+
+.nav{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 100%;
+	background-color: #6fbee8;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbutton{
+	border-style: solid;
+	font-size: 30px;
+	padding: 15px;
+	background-color: white;
+	margin: 1%;
+}
+
+.changeCampus{
+	float: right;
+}
+
+
+
+ .iframe-container {
+  overflow: hidden;
+  padding-top: 80%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 50%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+ #mobile-map-cta {
+        display:none;
+    }
+
+@media (max-width: 919px) {
+    #mobile-map-cta {
+        display:block;
+    }
+    
+    .iframe-container {
+        padding-top: 90%;
+    }
+}
