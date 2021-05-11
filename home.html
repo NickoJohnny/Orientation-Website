@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+		<button onclick="changeCampus();" class="changeCampus">
+			<strong>Change Campus</strong><br>
+            <br />
+            Current campus:
+			<span id="currentCampus"></span>
+		</button>
+</div>
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js" type="text/javascript"></script>
 	<title>Home</title>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+    </style>
 </head>
 	<body>
-		<button onclick="changeCampus();" class="changeCampus">
-			Change Campus<br>Current campus:
-			<span id="currentCampus"></span>
-		</button>
-		<h1>UON Orientation</h1>
-		<h3>
-			First year student? Feeling confused and lost on what to expect or where to go? You've come to the right place. Get
+		<h1 class="auto-style1"> UON Orientation</h1>
+		<h3 class="auto-style1">
+			First year student? Feeling confused and lost on what to expect or where to go? 
+        </h3>
+        <h3 class="auto-style1">
+			You've come to the right place. Get
             more information about everything you need to know right here.
         </h3>
         <div class="nav">
-	        <button class="navbutton" onclick="staff();">Staff and Facility</button>
-	        <button class="navbutton" onclick="todo();">To-Do List</button>
-	        <button class="navbutton" onclick="map();">Map Of Campus</button>
+	        <button class="navbutton zoom" onclick="staff();">Staff and Facility</button>
+	        <button class="navbutton zoom" onclick="todo();">To-Do List</button>
+	        <button class="navbutton zoom" onclick="map();">Map Of Campus</button>
 	        </div>
 	</body>
 </html>

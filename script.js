@@ -1,39 +1,39 @@
-var ourimbah = "ourimbah";
+var ourimbah = "Ourimbah";
 
 function setOurimbah(){
-	localStorage.setItem("campus", "ourimbah");
+	localStorage.setItem("campus", "Ourimbah");
 	window.location.href = "home.html";
 }
 
 function setCallaghan(){
-	localStorage.setItem("campus", "callaghan");
+	localStorage.setItem("campus", "Callaghan");
 	window.location.href = "home.html";
 }
 
 function changeCampus(){
 	var campus=localStorage.getItem("campus");
-	if (campus == "callaghan"){
-		localStorage.setItem("campus", "ourimbah");
-	} else if (campus == "ourimbah"){
-		localStorage.setItem("campus", "callaghan");
+	if (campus == "Callaghan"){
+		localStorage.setItem("campus", "Ourimbah");
+	} else if (campus == "Ourimbah"){
+		localStorage.setItem("campus", "Callaghan");
 	}
 	location.reload()
 }
 
 function staff(){
 	var campus=localStorage.getItem("campus");
-	if (campus == "callaghan"){
+	if (campus == "Callaghan"){
 		window.location.href = "staffCallaghan.html";
-	} else if (campus == "ourimbah"){
+	} else if (campus == "Ourimbah"){
 		window.location.href = "staffOurimbah.html";
 	}
 }
 
 function map(){
 	var campus=localStorage.getItem("campus");
-	if (campus == "callaghan"){
+	if (campus == "Callaghan"){
 		window.location.href = "mapCallaghan.html";
-	} else if (campus == "ourimbah"){
+	} else if (campus == "Ourimbah"){
 		window.location.href = "mapOurimbah.html";
 	}
 }
