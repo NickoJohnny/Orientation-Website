@@ -116,6 +116,8 @@ body {
 
 h1 {
 	font-size: 60px;
+    text-align: center;
+    height: 36px;
 }
 
 
@@ -124,7 +126,7 @@ h1 {
 	width: 75%;
 }
 
-.uontitle {
+.uontitle 
 	color: #FFFFFF;
 	font-size: x-large;
 }
