@@ -22,7 +22,7 @@
 	padding-top: 5%;
 	padding-bottom: 5%;
 	width: 94%;
-	background-color: #6fbee8;
+	background-color: #FFFFFF;
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +40,8 @@
 	padding: 15px;
 	background-color: white;
 	margin: 1%;
-    height: 73px;
-    width: 318px;
+    height: 230px;
+    width: 269px;
 }
 
 .changeCampus{
@@ -84,8 +84,9 @@
 .topnav {
 	overflow: hidden;
 	background-color: #333;
-    text-align: center;
-    height: 64px;
+	text-align: center;
+	height: 60px;
+	margin-bottom: 20px;
 }
 
 	.topnav a {
@@ -115,4 +116,15 @@ body {
 
 h1 {
 	font-size: 60px;
+}
+
+
+.center {
+	margin: auto;
+	width: 75%;
+}
+
+.uontitle {
+	color: #FFFFFF;
+	font-size: x-large;
 }

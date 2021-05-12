@@ -46,3 +46,4 @@ window.onload = function() {
 	var campus=localStorage.getItem("campus");
    	document.getElementById("currentCampus").innerHTML= campus;
 } 
+
