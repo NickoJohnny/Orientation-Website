@@ -46,7 +46,7 @@
 
 .changeCampus{
 	float: right;
-    height: 62px;
+    height: 80px;
     margin-left: 60px;
 }
 
@@ -85,7 +85,7 @@
 	overflow: hidden;
 	background-color: #333;
 	text-align: center;
-	height: 60px;
+	height: 80px;
 	margin-bottom: 20px;
 }
 
@@ -93,9 +93,9 @@
 		float: left;
 		color: #f2f2f2;
 		text-align: center;
-		padding: 12px 15px;
+		padding: 30px 15px;
 		text-decoration: none;
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 		.topnav a:hover {
@@ -126,7 +126,7 @@ h1 {
 	width: 75%;
 }
 
-.uontitle 
+.uontitle {
 	color: #FFFFFF;
 	font-size: x-large;
 }
