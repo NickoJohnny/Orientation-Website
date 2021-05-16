@@ -126,6 +126,12 @@ h1 {
 	width: 75%;
 }
 
+.centerindex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .centerfaq {
 	margin: auto;
 	width: 85%;
