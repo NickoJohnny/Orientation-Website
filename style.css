@@ -126,6 +126,11 @@ h1 {
 	width: 75%;
 }
 
+.centerfaq {
+	margin: auto;
+	width: 85%;
+}
+
 .uontitle {
 	color: #FFFFFF;
 	font-size: x-large;
@@ -148,9 +153,9 @@ body {
 	font-size: 18px;
 }
 
-	.active, .collapsible:hover {
+.active, .collapsible:hover {
 		background-color: #455;
-	}
+}
 
 .content {
 	padding: 0 18px;
