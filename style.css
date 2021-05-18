@@ -172,3 +172,12 @@ body {
 	width: 38%;
 }
 
+.buttontest {
+	border-style: solid;
+	font-size: 30px;
+	padding: 50px;
+	background-color: white;
+	margin: 1% 1% 1% 2%;
+	height: 400px;
+	width: 450px;
+}
