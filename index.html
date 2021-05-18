@@ -16,6 +16,30 @@
 	        <button class="navbutton zoom" onclick= "setOurimbah();">Ourimbah</button>
 	        <button class="navbutton zoom" onclick="setCallaghan();">Callaghan</button>
 			<button class="navbutton zoom" onclick="setNUspace();">NUspace</button>
+			
+			
+			<a href="home.html" class="zoom" onclick="setCallaghan();">
+			<video width='380' height='400' muted
+       onmouseenter='Videoplay(true, this)'
+       onmouseleave='Videoplay(false, this)'
+       src="Media/callaghan.mp4" loop>
+  Your browser does not support the video tag.
+</video>
+				</a>
+
+
 	    </div>
+
+	<script> 
+		const Videoplay = function (Hovering, videoElement) {
+            if (Hovering == true) {
+                videoElement.play();
+            }
+
+            else if (Hovering == false) {
+                videoElement.pause();
+            }
+        }</script>
+
 	</body>
 </html>
