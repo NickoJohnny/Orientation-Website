@@ -30,35 +30,16 @@ function changeNuSpace(){
 	location.reload()
 }
 
-//Remove once drop down working
-function changeCampus(){
-	var campus=localStorage.getItem("campus");
-	if (campus == "Callaghan"){
-		localStorage.setItem("campus", "Ourimbah");
-	} else if (campus == "Ourimbah"){
-		localStorage.setItem("campus", "Callaghan");
-	}
-	location.reload()
-}
-//
-
 function changeCampusDropdown() {
-  document.getElementById("menuDropdown").classList.toggle("show");
+	var x = document.getElementById("menuDropdown");
+  		if (window.getComputedStyle(x).display === "none") {
+  			document.getElementById("menuDropdown").style.display = "inline";
+  		}
+  		else
+  		{
+  			document.getElementById("menuDropdown").style.display = "none";
+  		}
 }
-
-window.onclick = function(event) {
-  if (!event.target.matches('.changeCampus')) {
-    var dropdowns = document.getElementsByClassName("dropdown-campus");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
 
 function staff(){
 	var campus=localStorage.getItem("campus");
