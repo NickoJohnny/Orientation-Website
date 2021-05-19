@@ -10,6 +10,27 @@ function setCallaghan(){
 	window.location.href = "home.html";
 }
 
+function setNuSpace(){
+	localStorage.setItem("campus", "NuSpace");
+	window.location.href = "home.html";
+}
+
+function changeOurimbah(){
+	localStorage.setItem("campus", "Ourimbah");
+	location.reload()
+}
+
+function changeCallaghan(){
+	localStorage.setItem("campus", "Callaghan");
+	location.reload()
+}
+
+function changeNuSpace(){
+	localStorage.setItem("campus", "NuSpace");
+	location.reload()
+}
+
+//Remove once drop down working
 function changeCampus(){
 	var campus=localStorage.getItem("campus");
 	if (campus == "Callaghan"){
@@ -19,6 +40,7 @@ function changeCampus(){
 	}
 	location.reload()
 }
+//
 
 function staff(){
 	var campus=localStorage.getItem("campus");
