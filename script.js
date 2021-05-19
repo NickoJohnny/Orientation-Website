@@ -42,6 +42,24 @@ function changeCampus(){
 }
 //
 
+function changeCampusDropdown() {
+  document.getElementById("menuDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.changeCampus')) {
+    var dropdowns = document.getElementsByClassName("dropdown-campus");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
 function staff(){
 	var campus=localStorage.getItem("campus");
 	if (campus == "Callaghan"){
