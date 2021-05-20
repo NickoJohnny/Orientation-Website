@@ -32,14 +32,15 @@
 	transition: 0.5s
 }
 
-.navbutton{
+.navbutton {
 	border-style: solid;
 	font-size: 30px;
 	padding: 15px;
 	background-color: white;
 	margin: 1%;
-    height: 230px;
-    width: 269px;
+	height: 230px;
+	width: 269px;
+	cursor: pointer;
 }
 
 .changeCampus {
@@ -132,8 +133,12 @@ h1 {
 }
 
 .centerfaq {
-	margin: auto;
-	width: 85%;
+	margin: 0;
+	position: absolute;
+	left: 60%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	width: 50%;
 }
 
 .uontitle {
@@ -156,6 +161,9 @@ body {
 	text-align: left;
 	outline: none;
 	font-size: 18px;
+	left: auto;
+	right: 0;
+	margin-right: 10px;
 }
 
 	.active, .collapsible:hover {
