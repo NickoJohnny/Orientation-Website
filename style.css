@@ -42,10 +42,11 @@
     width: 269px;
 }
 
-.changeCampus{
+.changeCampus {
 	float: right;
-    height: 80px;
-    margin-left: 60px;
+	height: 80px;
+	margin-left: 60px;
+	cursor: pointer;
 }
 
 
@@ -181,12 +182,17 @@ body {
 }
 
 .dropdown-campus {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 212px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	cursor: pointer;
+	left: auto;
+	right: 0;
+	margin-right: 0px;
+	margin-top: 78px;
 }
 
 .dropdown-campus a {
@@ -196,4 +202,5 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+
 }
