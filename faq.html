@@ -32,83 +32,103 @@
     </style>
 </head>
 <body>
-     <h1>Frequently Asked Questions</h1>   
-<div class="centerfaq">
-   
-<h2>General Questions</h2>
+  
+  <h1>Frequently Asked Questions</h1>   
 
-<button type="button" class="collapsible">Where can I park around Campus?</button>
-<div class="content">
-  <p> test </p>
-</div>
+  <div class="centerfaq">
+     
+    <h2>General Questions</h2>
 
-<h2>Campus Services</h2>
-<button type="button" class="collapsible ">How do I find my way around campus? </button>
-<div class="content">
-  <p>  </p>
-</div>
-    <h2>Blackboard</h2>
+    <button type="button" class="collapsible">Where can I park around Campus?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
 
-<button type="button" class="collapsible">Where can I park around Campus?</button>
-<div class="content">
-  <p> test </p>
-</div>
-    <h2>Assignment / Exam</h2>
+    <button type="button" class="collapsible">Does this button work?</button>
+    <div class="content">
+      <p> Yes </p>
+    </div>
 
-<button type="button" class="collapsible">Where can I park around Campus?</button>
-<div class="content">
-  <p> test </p>
-</div>
-    <h2>MyUon / MyHub</h2>
 
-<button type="button" class="collapsible">Where can I park around Campus?</button>
-<div class="content">
-  <p> test </p>
-</div>
-    <h2>Software / IT</h2>
+    <h2 class="faqH2">Campus Services</h2>
 
-<button type="button" class="collapsible">Where can I park around Campus?</button>
-<div class="content">
-  <p> test </p>
-</div>
-    <h2>Academic Resources</h2>
+    <button type="button" class="collapsible ">How do I find my way around campus? </button>
+    <div class="content">
+      <p>  </p>
+    </div>
+        
 
-<button type="button" class="collapsible">Where can I park around Campus?</button>
-<div class="content">
-  <p> test </p>
-</div>
+    <h2 class="faqH2">Blackboard</h2>
 
-        <h2> Contact Questions </h2>
+    <button type="button" class="collapsible">Where can I park around Campus?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
+        
 
-<button type="button" class="collapsible">How do I contact campus security?</button>
-<div class="content">
-  <p> test </p>
-</div>
-    <button type="button" class="collapsible">How do I contact IT assistance?</button>
-<div class="content">
-  <p> test </p>
-</div>
-    <button type="button" class="collapsible">How can I contact the course coordinator or other members of staff?</button>
-<div class="content">
-  <p> test </p>
-</div>
-            </div>
-        <script> // Move to script.js file
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
+    <h2 class="faqH2">Assignment / Exam</h2>
 
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                        content.style.display = "none";
-                    } else {
-                        content.style.display = "block";
-                    }
-                });
-            }
-        </script>
+    <button type="button" class="collapsible">Where can I park around Campus?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
+    
+
+    <h2 class="faqH2">MyUon / MyHub</h2>
+
+    <button type="button" class="collapsible">Where can I park around Campus?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
+    
+
+    <h2 class="faqH2">Software / IT</h2>
+
+    <button type="button" class="collapsible">Where can I park around Campus?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
+    
+
+    <h2 class="faqH2">Academic Resources</h2>
+
+    <button type="button" class="collapsible">Where can I park around Campus?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
+
+    
+    <h2 class="faqH2"> Contact Questions </h2>
+
+    <button type="button" class="collapsible">How do I contact campus security?</button>
+    <div class="content">
+      <p> test </p>
+    </div>
+        <button type="button" class="collapsible">How do I contact IT assistance?</button>
+        <div class="content">
+          <p> test </p>
+        </div>
+        <button type="button" class="collapsible">How can I contact the course coordinator or other members of staff?</button>
+      <div class="content">
+      <p> test </p>
+    </div>
+  </div>
+          <script> // Move to script.js file
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+
+              for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function () {
+                      this.classList.toggle("active");
+                      var content = this.nextElementSibling;
+                      if (content.style.display === "block") {
+                          content.style.display = "none";
+                      } else {
+                          content.style.display = "block";
+                      }
+                  });
+              }
+          </script>
 
 	</body>
 </html>
