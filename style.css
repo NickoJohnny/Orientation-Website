@@ -8,10 +8,6 @@
 	padding-top: 20px;
 }
 
-.backButton{
-	float: right;
-}
-
 .homeButton{
 	float: right;
 }
@@ -112,6 +108,8 @@
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+	background: linear-gradient(to right, #25c481, #25b7c4);
 }
 
 h1 {
@@ -140,16 +138,13 @@ h1 {
 	transform: translate(-50%, -50%);
 	width: 50%;
 	height: 300px;
+	
 }
+
 
 .uontitle {
 	color: #FFFFFF;
 	font-size: x-large;
-}
-
-body {
-	background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-	background: linear-gradient(to right, #25c481, #25b7c4);
 }
 
 .collapsible {
@@ -159,12 +154,16 @@ body {
 	padding: 18px;
 	width: 50%;
 	border: none;
-	text-align: left;
+	text-align: center;
 	outline: none;
 	font-size: 18px;
 	left: auto;
 	right: 0;
 	margin-right: 10px;
+	margin-top: 20px;
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 	.active, .collapsible:hover {
@@ -177,7 +176,8 @@ body {
 	overflow: hidden;
 	font-size: 16px;
 	background-color: #f1f1f1;
-	width: 45%;
+	width: 47.5%;
+	text-align: center;
 }
 
 .buttontest {
