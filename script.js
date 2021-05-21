@@ -63,6 +63,11 @@ function todo(){
 	window.location.href = "todo.html";
 }
 
+//Possible multiple FAQ's for campuses?
+function faq(){
+	window.location.href = "faq.html";
+}
+
 window.onload = function() {
 	var campus=localStorage.getItem("campus");
    	document.getElementById("currentCampus").innerHTML= campus;
