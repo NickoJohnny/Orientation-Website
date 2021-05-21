@@ -136,9 +136,10 @@ h1 {
 	margin: 0;
 	position: absolute;
 	left: 60%;
-	top: 25%;
+	top: 35%;
 	transform: translate(-50%, -50%);
 	width: 50%;
+	height: 300px;
 }
 
 .uontitle {
@@ -156,7 +157,7 @@ body {
 	color: white;
 	cursor: pointer;
 	padding: 18px;
-	width: 40%;
+	width: 50%;
 	border: none;
 	text-align: left;
 	outline: none;
@@ -176,7 +177,7 @@ body {
 	overflow: hidden;
 	font-size: 16px;
 	background-color: #f1f1f1;
-	width: 38%;
+	width: 45%;
 }
 
 .buttontest {
