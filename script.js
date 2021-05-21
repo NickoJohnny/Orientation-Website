@@ -63,6 +63,14 @@ function todo(){
 	window.location.href = "todo.html";
 }
 
+function services() {
+	window.location.href = "services.html";
+}
+
+function about() {
+	window.location.href = "about.html";
+}
+
 //Possible multiple FAQ's for campuses?
 function faq(){
 	window.location.href = "faq.html";
