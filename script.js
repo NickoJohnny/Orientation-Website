@@ -48,14 +48,20 @@ function staff(){
 	} else if (campus == "Ourimbah"){
 		window.location.href = "staffOurimbah.html";
 	}
+	else {
+		window.location.href = "staffNUspace.html";
+	}
 }
 
 function map(){
 	var campus=localStorage.getItem("campus");
 	if (campus == "Callaghan"){
-		window.location.href = "mapCallaghan.html";
+		window.location.href = "https://www.newcastle.edu.au/campus-life/newcastle/callaghan/map";
 	} else if (campus == "Ourimbah"){
-		window.location.href = "mapOurimbah.html";
+		window.location.href = "https://www.newcastle.edu.au/campus-life/central-coast/ourimbah/map";
+	}
+	else {
+		window.location.href = "https://www.newcastle.edu.au/campus-life/newcastle/newcastle-city/map";
 	}
 }
 
@@ -81,3 +87,35 @@ window.onload = function() {
    	document.getElementById("currentCampus").innerHTML= campus;
 } 
 
+function checkboxes1(){
+   	var inputElems = document.getElementsByClassName("1stCheck"),
+	count = 0;
+
+        for (var i=0; i<inputElems.length; i++) {       
+			if (inputElems[i].type == "checkbox" && inputElems[i].checked == true){
+			    count++; 
+			}
+		}
+		var percentage = (count/4)*100;
+		var total = 0;
+
+		// var id = setInterval(frame, 10);
+		// 	function frame(){
+				if (total < percentage){
+					while (total < percentage){
+						total++;
+						document.getElementById("Bar").style.width = total+"%";
+					}
+				}
+				else if (percentage == 0) {
+					document.getElementById("Bar").style.width = "0%";
+				}
+				else {
+					while (total > percentage){
+						total--;
+						document.getElementById("Bar").style.width = total+"%";						
+					}
+				}
+			//}
+		
+}

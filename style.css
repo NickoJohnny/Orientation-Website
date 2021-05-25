@@ -222,7 +222,7 @@ h1 {
 }
 
 
-.todolistimg {
+.todolisting {
 	width: 300px;
 	height: 300px;
 	float: left;
@@ -293,4 +293,15 @@ h1 {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+}
+
+/*TESTING*/
+.progess-background {
+	color:#000!important;
+	background-color:#f1f1f1!important
+}
+
+.progess-bar {
+	color:#fff!important;
+	background-color:#4CAF50!important
 }
