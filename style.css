@@ -108,7 +108,7 @@
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+	background: -webkit-linear-gradient(left, #d5d0e5, #f9d29d);
 	background: linear-gradient(to right, #25c481, #25b7c4);
 }
 
@@ -121,7 +121,7 @@ h1 {
 
 .center {
 	margin: auto;
-	width: 75%;
+	width: 60%;
 }
 
 .centerindex {
@@ -216,6 +216,9 @@ h1 {
 .logoimage {
 	width: 210px;
 	height: 210px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .faqH2 {
 	padding-top: 50px;
@@ -226,7 +229,7 @@ h1 {
 	width: 300px;
 	height: 300px;
 	float: left;
-	margin-left: 70px;
+	margin-left: 80px;
 }
 
 .todo {
@@ -244,3 +247,75 @@ h1 {
 	color:#fff!important;
 	background-color:#4CAF50!important
 }
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 23px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-left: 400px;
+	margin-top: 15px;
+}
+
+	.container input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+	}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: #c6bebe;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.todo-list {
+	padding: 200px;
+}
+
+.homepadding {
+	padding: 50px;
+	text-align: center;
+}
+
