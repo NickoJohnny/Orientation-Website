@@ -240,8 +240,8 @@ h1 {
 	text-align: center;
 }
 
-	/*TESTING*/
-	.progess-background {
+/*Progress Bar*/
+.progess-background {
 	color:#000!important;
 	background-color:#f1f1f1!important;
 	border: 2px solid black;
@@ -264,4 +264,12 @@ h1 {
 
 .check1 {
 
+}
+
+/*Text Testing*/
+.text {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 16px;
 }
