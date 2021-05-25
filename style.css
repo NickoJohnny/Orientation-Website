@@ -298,10 +298,19 @@ h1 {
 /*TESTING*/
 .progess-background {
 	color:#000!important;
-	background-color:#f1f1f1!important
+	background-color:#f1f1f1!important;
 }
 
 .progess-bar {
 	color:#fff!important;
-	background-color:#4CAF50!important
+	background-color:#4CAF50!important;
+}
+
+#Percent1 {
+	text-align: center;
+	color: black; 
+}
+
+.step {
+	padding-top: 25px;
 }

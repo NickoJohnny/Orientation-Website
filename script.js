@@ -87,6 +87,7 @@ window.onload = function() {
    	document.getElementById("currentCampus").innerHTML= campus;
 } 
 
+var total = 0;
 function checkboxes1(){
    	var inputElems = document.getElementsByClassName("1stCheck"),
 	count = 0;
@@ -97,25 +98,28 @@ function checkboxes1(){
 			}
 		}
 		var percentage = (count/4)*100;
-		var total = 0;
 
-		// var id = setInterval(frame, 10);
-		// 	function frame(){
+
+		var id = setInterval(frame, 10);
+			function frame(){
 				if (total < percentage){
-					while (total < percentage){
 						total++;
 						document.getElementById("Bar").style.width = total+"%";
-					}
+						document.getElementById("Percent1").innerHTML = total+"%";
 				}
 				else if (percentage == 0) {
-					document.getElementById("Bar").style.width = "0%";
+					total--;
+					document.getElementById("Bar").style.width = total+"%";
+					document.getElementById("Percent1").innerHTML = total+"%";
 				}
 				else {
-					while (total > percentage){
 						total--;
-						document.getElementById("Bar").style.width = total+"%";						
-					}
+						document.getElementById("Bar").style.width = total+"%";
+						document.getElementById("Percent1").innerHTML = total+"%";
 				}
-			//}
-		
+				if (total == percentage) {
+					clearInterval(id);
+			}
+		}
+	
 }
