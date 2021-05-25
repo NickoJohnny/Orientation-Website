@@ -89,7 +89,7 @@ window.onload = function() {
 
 var total = 0;
 function checkboxes1(){
-   	var inputElems = document.getElementsByClassName("1stCheck"),
+   	var inputElems = document.getElementsByClassName("check1"),
 	count = 0;
 
         for (var i=0; i<inputElems.length; i++) {       

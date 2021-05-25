@@ -238,11 +238,12 @@ h1 {
 .progess-background {
 	color:#000!important;
 	background-color:#f1f1f1!important;
+	border: 2px solid black;
 }
 
 .progess-bar {
 	color:#fff!important;
-	background-color:#4CAF50!important;
+	background-color:#4c6daf!important;
 }
 
 #Percent1 {
@@ -252,4 +253,8 @@ h1 {
 
 .step {
 	padding-top: 25px;
+}
+
+.check1 {
+
 }
