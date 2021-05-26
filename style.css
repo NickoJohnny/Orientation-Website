@@ -273,3 +273,7 @@ h1 {
 	margin-bottom: 30px;
 	border-radius: 16px;
 }
+
+[onClick] {
+	cursor: pointer;
+}
