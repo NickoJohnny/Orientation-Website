@@ -283,10 +283,10 @@ h1 {
 	margin: 0 auto;
 	max-width: 1000px;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	grid-auto-rows: auto;
 	gap: 20px;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 	.cards * {
@@ -296,7 +296,7 @@ h1 {
 
 .card__img {
 	width: 100%;
-	height: 200px;
+	height: 175px;
 	object-fit: cover;
 	display: block;
 	border-top: 2px solid #333333;
@@ -310,7 +310,7 @@ h1 {
 	font-size: 0.9em;
 	padding: 10px;
 	text-align: center;
-	background: #fafafa;
+	background: #FFFFFF;
 	border-right: 2px solid #333333;
 	border-left: 2px solid #333333;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -344,7 +344,7 @@ h1 {
 	}
 
 .card__link {
-	color: #64968c;
+	color: #333;
 	text-decoration: none;
 	text-align: center;
 }
@@ -365,7 +365,16 @@ h1 {
 	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.container{
+.card__img:hover {
+}
+
+
+.homecontainer {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.container {
 	width: 300px;margin-left: auto;margin-right: auto;
 	height: 450px;
 	border-radius: 20px;
@@ -482,3 +491,4 @@ h1 {
 	opacity: 0;
 	color:#fff;
 }
+
