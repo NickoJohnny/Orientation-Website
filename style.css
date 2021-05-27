@@ -258,12 +258,42 @@ h1 {
 	color: black; 
 }
 
-.step {
-	padding-top: 25px;
+
+.checkmark {
+	height: 28px;
+	width: 28px;
+	background-color: #eee;
 }
 
-.check1 {
+.checkboxcontainer:hover input ~ .checkmark {
+	background-color: #c6bebe;
+}
 
+.checkboxcontainer input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+
+.checkboxcontainer input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.checkboxcontainer .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 /*Text Testing*/
@@ -296,7 +326,7 @@ h1 {
 
 .card__img {
 	width: 100%;
-	height: 175px;
+	height: 150px;
 	object-fit: cover;
 	display: block;
 	border-top: 2px solid #333333;
@@ -308,7 +338,7 @@ h1 {
 .card__content {
 	line-height: 1.3;
 	font-size: 0.9em;
-	padding: 10px;
+	padding: 1px;
 	text-align: center;
 	background: #FFFFFF;
 	border-right: 2px solid #333333;
@@ -343,20 +373,9 @@ h1 {
 		margin-right: 8px;
 	}
 
-.card__link {
-	color: #333;
-	text-decoration: none;
-	text-align: center;
-}
-
-.card__link:hover {
-	text-decoration: underline;
-	font-size: 110%;
-	display: block;
-}
 
 .card__content:hover {
-	color: #ed913b;
+	
 }
 
 .card:hover {
