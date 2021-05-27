@@ -219,6 +219,8 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
 .faqH2 {
 	padding-top: 50px;
 }
@@ -394,13 +396,14 @@ h1 {
 }
 
 .container {
-	width: 300px;margin-left: auto;margin-right: auto;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	height: 450px;
 	border-radius: 20px;
 	background-color: rgb(35,35,35);
-	position:relative;
-	overflow:hidden;
-	
+	position: relative;
+	overflow: hidden;
 }
 
 .text1{
