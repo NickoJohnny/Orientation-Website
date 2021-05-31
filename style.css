@@ -243,6 +243,7 @@ h1 {
 }
 
 /*Progress Bar*/
+/*TODO PAGE*/
 .progess-background {
 	color:#000!important;
 	background-color:#f1f1f1!important;
@@ -526,5 +527,12 @@ h1 {
 	position: fixed;
 	left: 43%
 	/*top: 45%;*/
-	}
-
+}
+.banner {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 5%;
+}
