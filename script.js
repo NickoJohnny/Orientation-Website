@@ -87,6 +87,8 @@ window.onload = function() {
    	document.getElementById("currentCampus").innerHTML= campus;
 } 
 
+
+// Progess bar
 var total = 0;
 function checkboxes1(){
    	var inputElems = document.getElementsByClassName("check1"),
