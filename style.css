@@ -521,3 +521,10 @@ h1 {
 	color:#fff;
 }
 
+/*To-do clicker*/
+.pop-up {
+	position: fixed;
+	left: 43%
+	/*top: 45%;*/
+	}
+
