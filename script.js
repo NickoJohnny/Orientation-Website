@@ -89,7 +89,7 @@ window.onload = function() {
 
 
 // Progess bar
-var total = 0;
+var total1 = 0;
 function checkboxes1(){
    	var inputElems = document.getElementsByClassName("check1"),
 	count = 0;
@@ -104,22 +104,97 @@ function checkboxes1(){
 
 		var id = setInterval(frame, 10);
 			function frame(){
-				if (total < percentage){
-						total++;
-						document.getElementById("Bar").style.width = total+"%";
-						document.getElementById("Percent1").innerHTML = total+"%";
+				if (total1 < percentage){
+						total1++;
+						document.getElementById("Bar1").style.width = total1+"%";
+						document.getElementById("Percent1").innerHTML = total1+"%";
 				}
 				else if (percentage == 0) {
-					total--;
-					document.getElementById("Bar").style.width = total+"%";
-					document.getElementById("Percent1").innerHTML = total+"%";
+					total1--;
+					document.getElementById("Bar").style.width = total1+"%";
+					document.getElementById("Percent1").innerHTML = total1+"%";
 				}
 				else {
-						total--;
-						document.getElementById("Bar").style.width = total+"%";
-						document.getElementById("Percent1").innerHTML = total+"%";
+						total1--;
+						document.getElementById("Bar").style.width = total1+"%";
+						document.getElementById("Percent1").innerHTML = total1+"%";
 				}
-				if (total == percentage) {
+				if (total1 == percentage) {
+					clearInterval(id);
+			}
+		}
+	
+}
+
+
+var total2 = 0;
+function checkboxes2(){
+   	var inputElems = document.getElementsByClassName("check2"),
+	count = 0;
+
+        for (var i=0; i<inputElems.length; i++) {       
+			if (inputElems[i].type == "checkbox" && inputElems[i].checked == true){
+			    count++; 
+			}
+		}
+		var percentage = (count/4)*100;
+
+
+		var id = setInterval(frame, 10);
+			function frame(){
+				if (total2 < percentage){
+						total2++;
+						document.getElementById("Bar2").style.width = total2+"%";
+						document.getElementById("Percent2").innerHTML = total2+"%";
+				}
+				else if (percentage == 0) {
+					total2--;
+					document.getElementById("Bar2").style.width = total2+"%";
+					document.getElementById("Percent2").innerHTML = total2+"%";
+				}
+				else {
+						total2--;
+						document.getElementById("Bar2").style.width = total2+"%";
+						document.getElementById("Percent2").innerHTML = total2+"%";
+				}
+				if (total2 == percentage) {
+					clearInterval(id);
+			}
+		}
+	
+}
+
+var total3 = 0;
+function checkboxes3(){
+   	var inputElems = document.getElementsByClassName("check3"),
+	count = 0;
+
+        for (var i=0; i<inputElems.length; i++) {       
+			if (inputElems[i].type == "checkbox" && inputElems[i].checked == true){
+			    count++; 
+			}
+		}
+		var percentage = (count/4)*100;
+
+
+		var id = setInterval(frame, 10);
+			function frame(){
+				if (total3 < percentage){
+						total3++;
+						document.getElementById("Bar3").style.width = total3+"%";
+						document.getElementById("Percent3").innerHTML = total3+"%";
+				}
+				else if (percentage == 0) {
+					total2--;
+					document.getElementById("Bar3").style.width = total3+"%";
+					document.getElementById("Percent3").innerHTML = total3+"%";
+				}
+				else {
+						total3--;
+						document.getElementById("Bar3").style.width = total3+"%";
+						document.getElementById("Percent3").innerHTML = total3+"%";
+				}
+				if (total3 == percentage) {
 					clearInterval(id);
 			}
 		}

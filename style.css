@@ -255,12 +255,12 @@ h1 {
 	background-color:#4c6daf!important;
 }
 
-#Percent1 {
+.Percent {
 	text-align: center;
 	color: black; 
 }
 
-.check1 {
+.checkbox {
 	margin-left: 85px;
 	vertical-align: middle;
 }
