@@ -53,6 +53,18 @@ function staff(){
 	}
 }
 
+function services(){
+	var campus=localStorage.getItem("campus");
+	if (campus == "Callaghan"){
+		window.location.href = "servicesCallaghan.html";
+	} else if (campus == "Ourimbah"){
+		window.location.href = "servicesOurimbah.html";
+	}
+	else {
+		window.location.href = "servicesNUspace.html";
+	}
+}
+
 function map(){
 	var campus=localStorage.getItem("campus");
 	if (campus == "Callaghan"){
@@ -69,9 +81,6 @@ function todo(){
 	window.location.href = "todo.html";
 }
 
-function services() {
-	window.location.href = "services.html";
-}
 
 function about() {
 	window.location.href = "about.html";
