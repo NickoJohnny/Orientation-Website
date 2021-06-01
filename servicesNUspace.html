@@ -15,6 +15,18 @@
 		<a class="active"=#services>Services</a>
 	  	<a onclick="staff();">Staff</a>
 	  	<a href="faq.html">FAQ</a>
+
+	   <button onclick="changeCampusDropdown();" class="changeCampus">
+         <strong><span class="auto-style2 zoom" style="font-size: large">Change Campus</span></strong><br>
+         <br/>
+         <span class="auto-style4">Current campus:</span>
+         <span id="currentCampus"></span>
+      </button>
+    	<div id="menuDropdown" class="dropdown-campus">
+    	    <a OnClick="changeCallaghan(); services();">Callaghan</a>
+    	    <a OnClick="changeNuSpace(); services();">NuSpace</a>
+    	    <a OnClick="changeOurimbah(); services();">Ourimbah</a>
+      </div>
     </div>
 		
 	<h1>NUSpace Services</h1>
