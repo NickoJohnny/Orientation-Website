@@ -385,16 +385,14 @@ h1 {
 }
 
 .card__content:hover {
-	
+	transform: scale(1.01);
+	transition: 0.2s;
 }
 
 .card:hover {
 	transform: scale(1.01);
 	transition: 0.2s;
 	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card__img:hover {
 }
 
 
@@ -493,6 +491,10 @@ h1 {
 	position: relative;
 	top:-80px;
 	transform: top 0.4s ease-out;
+}
+
+.padding{
+	padding-top: 30px;
 }
 
 .container:hover h3{
