@@ -528,8 +528,12 @@ h1 {
 /*To-do clicker*/
 .pop-up {
 	position: fixed;
-	left: 43%
-	/*top: 45%;*/
+	left: 25%;
+	width: 50%;
+	top: 15%;
+	height: 75%;
+	overflow: auto;
+	border: solid;
 }
 .banner {
   padding: 10px;

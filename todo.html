@@ -42,17 +42,49 @@
              <h3>Selecting Courses</h3>
         
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.</p>
-             <a href="#">Learn More</a>
+             <a onclick="expand();"><u>Learn More</u></a>
              <p></p>
     </div>
+
     <div class="card__info">
       <div>
         <input type="checkbox" id="courses1" class="check1 checkmark checkbox" onclick="checkboxes1();">
                 <label for="courses1"></label>
-                <p class="centeralign">Checked Subjects?</p>
+                <p class="centeralign">Selected Your Courses?</p>
         </div>
        </div>
      </div>
+
+    <div id="pop-up" class="pop-up text" style="display: none;">
+        <h3>
+            Selecting Courses
+        </h3>
+        <p>
+            So you've earned a spot in the degree of your dreams, now how do you know what courses you need to take in order to complete your degree?
+            <br>
+            <br>
+            There are a number of methods to obtain this information, but the most accessible is the <a href="https://www.newcastle.edu.au/current-students/study-essentials/manage-your-program/program-plan" target="_blank">program plan</a> for your degree. This document will tell you what courses you need to take in order to complete your degree in the allocated time period. On this document the courses are broken up into core courses, major courses and electives.
+            <br>
+            <br>
+            <ul>
+                <li>Core Courses</li>
+                <p>
+                    Core courses are the courses you must take in order to complete a certain degree. These are non-optinal and cannot be substitued unless specifically stated. These courses are generally staggered throughout your degree with increasing difficulty so don't rush to finish them all at once!
+                </p>
+
+                <li>Major Courses</li>
+                <p>
+                    Major courses are courses that will assist you in refining your degree and specialising in a certain area. Not all degrees have a major but if they do, you can see your choices on your program plan
+                </p>
+
+                <li>Elective Courses</li>
+                <p>
+                    Elective courses are courses that are not tied to your degree and are up to you to choose what interests you. The course can relate to your degree in order to further your knowledge of a certain topic or it may something unrelated to your degree that you are interested in or want to know more about.
+                </p>
+            </ul>
+        </p>
+        <button onclick="closepop();" style="float: right;">Close</button>
+    </div>
     
          
          <div class="card">

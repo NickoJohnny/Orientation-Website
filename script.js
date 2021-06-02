@@ -120,12 +120,12 @@ function checkboxes1(){
 				}
 				else if (percentage == 0) {
 					total1--;
-					document.getElementById("Bar").style.width = total1+"%";
+					document.getElementById("Bar1").style.width = total1+"%";
 					document.getElementById("Percent1").innerHTML = total1+"%";
 				}
 				else {
 						total1--;
-						document.getElementById("Bar").style.width = total1+"%";
+						document.getElementById("Bar1").style.width = total1+"%";
 						document.getElementById("Percent1").innerHTML = total1+"%";
 				}
 				if (total1 == percentage) {
