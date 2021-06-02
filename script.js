@@ -211,8 +211,8 @@ function checkboxes3(){
 }
 
 // More info button
-function expand() {
-	var x = document.getElementById("pop-up");
+function expand1() {
+	var x = document.getElementById("pop-up1");
 	  if (x.style.display === "none") {
 	    x.style.display = "block";
 	  } else {
@@ -220,6 +220,149 @@ function expand() {
 	  }
 }
 
-function closepop() {
-	document.getElementById("pop-up").style.display = "none";
+function closepop1() {
+	document.getElementById("pop-up1").style.display = "none";
+}
+
+function expand2() {
+	var x = document.getElementById("pop-up2");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop2() {
+	document.getElementById("pop-up2").style.display = "none";
+}
+
+function expand3() {
+	var x = document.getElementById("pop-up3");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop3() {
+	document.getElementById("pop-up3").style.display = "none";
+}
+
+function expand4() {
+	var x = document.getElementById("pop-up4");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop4() {
+	document.getElementById("pop-up4").style.display = "none";
+}
+
+function expand5() {
+	var x = document.getElementById("pop-up5");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop5() {
+	document.getElementById("pop-up5").style.display = "none";
+}
+
+function expand6() {
+	var x = document.getElementById("pop-up6");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop6() {
+	document.getElementById("pop-up6").style.display = "none";
+}
+
+function expand7() {
+	var x = document.getElementById("pop-up7");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop7() {
+	document.getElementById("pop-up7").style.display = "none";
+}
+
+function expand8() {
+	var x = document.getElementById("pop-up8");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop8() {
+	document.getElementById("pop-up8").style.display = "none";
+}
+
+function expand9() {
+	var x = document.getElementById("pop-up9");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop9() {
+	document.getElementById("pop-up9").style.display = "none";
+}
+
+function expand10() {
+	var x = document.getElementById("pop-up10");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop10() {
+	document.getElementById("pop-up10").style.display = "none";
+}
+
+function expand11() {
+	var x = document.getElementById("pop-up11");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop11() {
+	document.getElementById("pop-up11").style.display = "none";
+}
+
+function expand12() {
+	var x = document.getElementById("pop-up12");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+}
+
+function closepop12() {
+	document.getElementById("pop-up12").style.display = "none";
 }
