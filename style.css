@@ -36,6 +36,18 @@ footer {
 	cursor: pointer;
 }
 
+.todobutton {
+	font-size: 24pt;
+	background-color: rgba(226, 226, 226, 0.76);
+	height: 90px;
+	width: 215px;
+	cursor: pointer;
+	margin: 0;
+	position: absolute;
+	top: 85%;
+	right: 40%;
+}
+
 .changeCampus {
 	float: right;
 	height: 80px;
@@ -381,12 +393,13 @@ footer {
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 450px;
+	height: 400px;
 	border-radius: 20px;
-	background-color: rgb(35,35,35);
+	background-color: #FFFFFF;
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
+	border: 2px solid #333333;
 }
 
 .text1{
@@ -424,12 +437,12 @@ footer {
 
 .container h3{
 	position: absolute;
-	bottom: 60px;
+	bottom: 50px;
 	left: 50%;
 	transform: translateX(-50%);
-	color: #fff;
-	letter-spacing: 2px;
-	transform: bottom 0.5s ease-out;
+	color: rgb(0, 0, 0);
+	letter-spacing: 1px;
+	transform: bottom 0.2s ease-out;
 }
 
 .a{
@@ -444,7 +457,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transform: bottom 0.4s,opacity 0.4s;
+	transform: bottom 0.2s,opacity 0.2s;
 }
 
 .a a{
@@ -456,7 +469,7 @@ footer {
 	position: absolute;
 	width: 480px;
 	height: 480px;
-	border-radius: 50%;
+	border-radius: 30%;
 	background-color: rgb(154,218,43);
 	top: -300px;
 	right: -150px;
@@ -466,16 +479,20 @@ footer {
 .container:hover .img{
 	position: relative;
 	top:-80px;
-	transform: top 0.4s ease-out;
+	transform: top 0.3s ease-out;
 }
 
+.containertext {
+	color: black;
+	font-size: 18pt;
+}
 .padding{
 	padding-top: 30px;
 }
 
 .container:hover h3{
-	bottom: 170px;
-	transform: bottom 0.4s;
+	bottom: 120px;
+	transform: bottom 0.3s;
 }
 
 .container:hover .a{
@@ -486,12 +503,12 @@ footer {
 	left:50%;
 	transform: translateX(-50%);
 	border-radius: 5px;
-	background-color: #fff;
+	background-color: rgb(189, 189, 189);
 	display: flex;
 	opacity: 1;
 	justify-content: center;
 	align-items: center;
-	transition: bottom 0.4s 0.3s,opacity 0.4s 0.3s;
+	transition: bottom 0.3s 0.3s,opacity 0.4s 0.3s;
 	
 }
 
