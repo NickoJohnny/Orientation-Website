@@ -11,14 +11,6 @@ h1 {
     height: 36px;
 }
 
-footer {
-	position: absolute;
-	height: 100px;
-	bottom: 0;
-	padding: 10px 20px;
-	width: 100%;
-	background: #666;
-  }
 
 .zoom:hover {
 	transform: scale(1.1);
@@ -406,7 +398,7 @@ footer {
 	margin-top: 100px;
 }
 
-.container {
+.containercard {
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
@@ -452,7 +444,7 @@ footer {
 	left: 26px;	
 }
 
-.container h3{
+.containercard h3{
 	position: absolute;
 	bottom: 50px;
 	left: 50%;
@@ -482,7 +474,7 @@ footer {
 	color: #000;
 }
 
-.container:hover .circle{
+.containercard:hover .circle{
 	position: absolute;
 	width: 480px;
 	height: 480px;
@@ -493,13 +485,13 @@ footer {
 	transform: width 0.4s,heigth 0.4s,top 0.4s,right 0.4s;
 }
 
-.container:hover .img{
+.containercard:hover .img{
 	position: relative;
 	top:-80px;
 	transform: top 0.3s ease-out;
 }
 
-.containertext {
+.containercardtext {
 	color: black;
 	font-size: 18pt;
 }
@@ -507,12 +499,12 @@ footer {
 	padding-top: 30px;
 }
 
-.container:hover h3{
+.containercard:hover h3{
 	bottom: 120px;
 	transform: bottom 0.3s;
 }
 
-.container:hover .a{
+.containercard:hover .a{
 	width: 100px;
 	height: 40px;
 	position: relative;
@@ -737,7 +729,7 @@ footer {
 
 .heroimage {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.158)), url("Media/test.jpg");
-	height: 1000px;
+	height: 900px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -753,3 +745,49 @@ footer {
 	transform: translate(-50%, -50%);
 	color: white;
   }
+
+.row {
+	background-color: #26272be0;
+}
+
+  .footer {
+  background-color:#26272b;
+  padding:10px 0 5px;
+  font-size:15px;
+  line-height:20px;
+  color:#737373;
+  text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer h6 {
+  color:rgba(255, 255, 255, 0.904);
+  font-size:20px;
+  margin-top:8px;
+  margin-bottom: 3px;
+}
+
+.footer a {
+	text-decoration: none;
+	font-size: 17px;
+}
+.footer a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links{
+  padding-left:0;
+  list-style:none;
+  text-decoration:none;
+}
+
+.footer-links a {
+  color:#737373
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+  color:#4e83ee;
+}
+
+  
