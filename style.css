@@ -1,27 +1,24 @@
-.bigButton {
-	font-size: 50px;
-	border-style: solid;
-	padding: 30px;
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(to right, #51b1d3, #51b1d3);
+	font-family: Myriad Pro;
 }
 
-.buttonContainer{
-	padding-top: 20px;
+h1 {
+	font-size: 60px;
+    text-align: center;
+    height: 36px;
 }
 
-.homeButton{
-	float: right;
-}
-
-.nav{
-	padding-top: 5%;
-	padding-bottom: 5%;
-	width: 94%;
-	background-color: #FFFFFF;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 216px;
-}
+footer {
+	position: absolute;
+	height: 100px;
+	bottom: 0;
+	padding: 10px 20px;
+	width: 100%;
+	background: #666;
+  }
 
 .zoom:hover {
 	transform: scale(1.1);
@@ -101,16 +98,9 @@
 		}
 
 		.topnav a.active {
-			font-size: 23px;
+			font-size: 19pt;
 			background-color:transparent;
 			color: #e78325;
-}
-
-body {
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	background: linear-gradient(to right, #51b1d3, #51b1d3);
-	font-family: Myriad Pro;
 }
 
 .hometitle  {
@@ -124,13 +114,6 @@ body {
 	font-family: Myriad Pro;
 	margin-bottom: 30%;
 }
-
-h1 {
-	font-size: 60px;
-    text-align: center;
-    height: 36px;
-}
-
 
 .center {
 	margin: auto;
@@ -147,22 +130,16 @@ h1 {
 	margin: 0;
 	position: absolute;
 	left: 50%;
-	top: 20%;
+	top: 240px;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	width: 50%;
+	width: 40%;
 	height: 0px;
-	
 }
 
-
-.uontitle {
-	color: #FFFFFF;
-	font-size: x-large;
-}
 
 .collapsible {
-	background-color: rgb(59 57 57 / 0.93);
+	background-color: #636363;
 	color: white;
 	cursor: pointer;
 	width: 50%;
@@ -171,12 +148,14 @@ h1 {
 	outline: none;
 	font-size: 18px;
 	margin-top: 20px;
-	padding: 6px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 	.active, .collapsible:hover {
-		background-color: #695d5d;
+		background-color: #695d5dd5;
+		transform: scale(1.02);
+		transition: 0.2s;
 			}
 
 .content {
@@ -191,15 +170,6 @@ h1 {
 	text-align: center;
 }
 
-.buttontest {
-	border-style: solid;
-	font-size: 30px;
-	padding: 50px;
-	background-color: white;
-	margin: 1% 1% 1% 2%;
-	height: 400px;
-	width: 450px;
-}
 
 .dropdown-campus {
 	display: none;
@@ -238,13 +208,6 @@ h1 {
 	padding-top: 50px;
 }
 
-
-.todolisting {
-	width: 300px;
-	height: 300px;
-	float: left;
-	margin-left: 80px;
-}
 
 .todo {
 	text-align: center;
@@ -738,16 +701,6 @@ h1 {
 	font-size: large;
 }
 
-
-footer {
-	position: absolute;
-	height: 100px;
-	bottom: 0;
-	padding: 10px 20px;
-	width: 100%;
-	background: #666;
-  }
-
 .cardbutton {
 	font-size: 180%;
 	transform: scale(1.01);
@@ -757,7 +710,7 @@ footer {
 }
 
 .heroimage {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.295)), url("Media/test.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.158)), url("Media/test.jpg");
 	height: 1000px;
 	width: 100%;
 	background-position: center;
