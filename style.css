@@ -682,27 +682,24 @@ font-size: 10pt;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.homecard__content > p:first-of-type {
-	margin-top: 0;
+.homecard__content:active {
+	transform: scale(1.01);
+	transition: 0.2s;
 }
-
-.homecard__content > p:last-of-type {
-	margin-bottom: 0;
-}
-
 .homecard__info {
 	padding: 18px;
 	width: 100%;
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
-	color: #555555;
-	background: #d8e4ece7;
-	font-size: 0.75em;
+	color: #ffffff8c;
+	background: #6b6b6bbb;
+	font-size: 0.7em;
 	border-bottom: 2px solid #333333;
 	border-right: 2px solid #333333;
 	border-left: 2px solid #333333;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
 }
 
 	.homecard__info i {
@@ -710,8 +707,6 @@ font-size: 10pt;
 		margin-right: 6px;
 		text-align: center;
 	}
-
-
 
 .homecard:hover {
 	transform: scale(1.001);
@@ -722,6 +717,7 @@ font-size: 10pt;
 .homecard__link {
 	text-decoration: none;
 	font-size: large;
+	
 }
 
 .cardbutton {
