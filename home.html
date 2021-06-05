@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js" type="text/javascript"></script>
+   <!-- Temporary, since google translate keeps popping up --> <meta name="google" content="notranslate">
 	<title>Orientation Home</title>
 </head> 
 	<body>
@@ -21,11 +22,11 @@
          
      
              <button onclick="changeCampusDropdown();" class="changeCampus">
-                 <strong><span class="zoom" style="font-size: large">Change Campus</span></strong><br>
+                <span id="currentCampus"></span>
                  <hr>
-                 <span></span>Current campus:</span>
-                 <span id="currentCampus"></span>
+                 <span>Change Campus</span>
              </button>
+             
              <div id="menuDropdown" class="dropdown-campus">
                  <a OnClick="changeCallaghan();">Callaghan</a>
                  <a OnClick="changeNuSpace();">NuSpace</a>
