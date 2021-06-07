@@ -802,3 +802,12 @@ font-size: 10pt;
 	max-width: 100%;
 	background-color: #ffffff;
 }
+
+
+/* Inserts link indicators on all external website links */
+a[href*="//"] { 
+    background: url(Media/external-link.png) center right no-repeat;
+    padding-right: 22px;
+	width: 4px;
+	height: 4px;
+}
