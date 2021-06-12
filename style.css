@@ -803,6 +803,41 @@ font-size: 10pt;
 	background-color: #ffffff;
 }
 
+.homecontainerdiv {
+	max-width: 90%;
+	background-color: #ffffff;
+	height: 500px;
+	align-content: center;
+	margin: auto;
+}
+
+.homecontainerdiv2 {
+	max-width: 90%;
+	background-color: #b3b1b1;
+	height: 500px;
+	align-content: center;
+	margin: auto;
+}
+
+
+.homecontainerdiv:hover {
+	transform: scale(1.005);
+	transition: 0.3s;
+}
+
+.homecontainerdiv2:hover {
+	transform: scale(1.005);
+	transition: 0.3s;
+}
+
+.containerheading  {
+	float: center;
+	color: #eaeaea;
+	text-align: center;
+	padding: 10px;
+	font-size: 45px;
+	text-shadow: 2px 2px #a0a0a0b4;
+}	
 
 /* Inserts link indicators on all external website links */
 a[href*="//"] { 
