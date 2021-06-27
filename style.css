@@ -804,7 +804,7 @@ font-size: 10pt;
 }
 
 .homecontainerdiv {
-	max-width: 90%;
+	max-width: 70%;
 	background-color: #ffffff;
 	height: 500px;
 	align-content: center;
@@ -812,7 +812,7 @@ font-size: 10pt;
 }
 
 .homecontainerdiv2 {
-	max-width: 90%;
+	max-width: 70%;
 	background-color: #b3b1b1;
 	height: 500px;
 	align-content: center;
@@ -845,4 +845,13 @@ a[href*="//"] {
     padding-right: 22px;
 	width: 4px;
 	height: 4px;
+}
+
+.ptext  {
+	float: center;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 17px;
+	margin-top: 10px;
+	margin-right: 17px;
 }
