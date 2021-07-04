@@ -9,9 +9,7 @@
     </head>
 	
     <body>
-        <!-- Testing out container backgrounds
-             <div class="todocontainer1"> -->
-                 
+              
         <div class="topnav">
           <img class="logoimg" src="Media/favicon.png">
     	  <a href="home.html">Home</a>
@@ -21,6 +19,11 @@
     	  <a onclick="staff();">Staff</a>
     	  <a href="faq.html">FAQ</a>
         </div>
+
+
+        <!-- Testing out container backgrounds-->
+        <div class="todocontainer1"> 
+            <br>
     	<h1>Things To Do Before Your First Day</h1>
 
     	<h3 class="todo">
@@ -85,7 +88,7 @@
          <div class="card">
         <img class="card__img" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
             <div class="card__content">
-             <h3>Timetable Allocations</h3>
+             <h3>Course Payments</h3>
         
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.</p>
              <a onclick="expand2();"><u>Learn More</u></a>
@@ -112,7 +115,7 @@
      <div class="card">
       <img class="card__img" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
           <div class="card__content">
-           <h3>Campus Map</h3>
+           <h3>Timetable Allocations</h3>
       
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.</p>
               <a onclick="expand3();"><u>Learn More</u></a>
@@ -139,10 +142,9 @@
         
         <button class="todobutton" onclick="closepop3();">Close</button>
     </div>
+<br>
+</div> 
 
-        
-    </div>
-    
     <h1 class="padding">Step 2</h1>
 
         <h2 class="todo">Getting Prepared</h2>
@@ -153,11 +155,11 @@
         <p id="Percent2" class="Percent">0%</p>
 
 
-     <div class="cards">
+     <div class="cards2">
      <div class="card">
         <img class="card__img" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
             <div class="card__content">
-             <h3>Subjects</h3>
+             <h3>Semester Calendar</h3>
         
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.</p>
              <a onclick="expand5();"><u>Learn More</u></a>
@@ -166,7 +168,7 @@
     <div class="card__info">
       <div>
         <input type="checkbox" id="prepare1" class="check2 checkmark checkbox" onclick="checkboxes2();">
-                <label for="subjects"></label>
+                <label for="prepare1"></label>
                 <p class="centeraligncard">Checked Subjects?</p>
         </div>
        </div>
@@ -183,7 +185,7 @@
          <div class="card">
         <img class="card__img" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
             <div class="card__content">
-             <h3>Books</h3>
+             <h3>Student ID</h3>
         
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.</p>
              <a onclick="expand6();"><u>Learn More</u></a>
@@ -233,16 +235,44 @@
         
         <button class="todobutton" onclick="closepop7();">Close</button>
     </div>
-    </div>
-    <br>
-     <h1 class="padding">Step 3</h1>
 
-        <h2 class="todo">Getting Prepared</h2>
+    <div class="card">
+        <img class="card__img" src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+            <div class="card__content">
+             <h3>Books</h3>
+        
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus id ab tenetur delectus reiciendis fugit autem qui at.</p>
+             <a onclick="expand6();"><u>Learn More</u></a>
+             <p></p>
+    </div>
+    <div class="card__info">
+      <div>
+        <input type="checkbox" id="prepare4" class="check2 checkmark checkbox" onclick="checkboxes2();">
+                <label for="prepare4"></label>
+                <p class="centeraligncard">Checked Books?</p>
+     </div>
+
+     <div id="pop-up6" class="pop-up text" style="display: none;">
+        <h3>
+            Getting Your Student ID
+        </h3>
+        
+        <button class="todobutton" onclick="closepop6();">Close</button>
+    </div>
+    </div>
+
+
+</div>
+</div>
+    <h1 class="padding">Step 3</h1>
+
+        <h2 class="todo">Arrival</h2>
 
         <div class="progess-background center" style="width: 25%;border-radius: 8px;">
             <div id="Bar3" class="progess-bar" style="height:22px; width:0;border-radius: 5px;"></div>
         </div>
         <p id="Percent3" class="Percent">0%</p>
+        
 
 
      <div class="cards">
@@ -327,8 +357,14 @@
         <button class="todobutton" onclick="closepop11();">Close</button>
     </div>
     </div>
-     
-	<!-- Moved this to the home page for showcasing services and other things around university
+    <br>
+</div>
+     <br>
+	</body>
+</html>
+
+
+<!-- work in progress
         <div class="container">
             <div class="text1">
 	        newcastle
@@ -344,7 +380,3 @@
             <a href="#">know more</a>
 	</div>
 	</div>    -->
-
-    <hr>
-	</body>
-</html>
