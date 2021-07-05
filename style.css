@@ -335,7 +335,7 @@ h1 {
 	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	grid-auto-rows: auto;
 	gap: 25px;
-	padding-top: 12px;
+	padding-top: 10px;
 }
 
 .cards2 {
@@ -359,7 +359,8 @@ h1 {
 
 .card__img {
 	width: 100%;
-	height: 100px;
+	height: 90px;
+	padding-bottom: 7px;
 	object-fit: scale-down;
 	display: block;
 	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.01);
@@ -522,8 +523,8 @@ font-size: 10pt;
 	color: black;
 	font-size: 18pt;
 }
-.padding{
-	padding-top: 18px;
+.paddingtodo{
+	padding-top: 20px;
 }
 
 .containercard:hover h3{
@@ -692,11 +693,12 @@ font-size: 10pt;
 
 .homecard__img {
 	width: 100%;
-	height: 140px;
-	object-fit: cover;
+	height: 120px;
+	object-fit: fill;
 	display: block;
 	border-top: 2px solid #333333;
 	border-right: 2px solid #333333;
+	border-bottom: 1px solid #333333;
 	border-left: 2px solid #333333;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
 }
