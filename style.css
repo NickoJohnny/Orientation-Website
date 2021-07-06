@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	background: linear-gradient(to right, #5b9dd5, #69a7db);
+	background: linear-gradient(to right, #609dd3, #69a7db);
 	font-family: Myriad Pro;
 }
 
@@ -146,36 +146,43 @@ h1 {
 
 
 .collapsible {
-	background-color: #636363;
+	background-color: #5c5c5ce8;
 	color: white;
 	cursor: pointer;
-	width: 50%;
+	width: 65%;
 	border: none;
+	border-radius: 16px;
 	text-align: center;
 	outline: none;
 	font-size: 18px;
 	margin-top: 20px;
-	padding: 10px;
-	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 16px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.116);
 }
 
 	.active, .collapsible:hover {
-		background-color: #695d5dd5;
-		transform: scale(1.02);
+		background-color: #696060be;
+		transform: scale(1.03);
 		transition: 0.2s;
 			}
 
 .content {
-	padding: 0 18px;
+	padding: 0 26px;
 	display: none;
 	overflow: hidden;
 	float: none;
 	margin: 0 auto;
-	font-size: 16px;
-	background-color: #f1f1f1;
-	width: 47.3%;
+	font-size: 17px;
+	background-color: #f1f1f1e1;
+	width: 56%;
 	text-align: center;
+	border-radius: 15px;
 }
+
+.active, .content:hover {
+	transform: scale(1.01);
+	transition: 0.1s;
+		}
 
 .logoimg {
 	padding-left: 18px;
@@ -312,7 +319,7 @@ h1 {
 	margin: 0 auto;
 	max-width: 1100px;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	grid-auto-rows: auto;
 	gap: 25px;
 	padding-top: 10px;
@@ -320,11 +327,13 @@ h1 {
 	.cards * {
 		box-sizing: border-box;
 		cursor: pointer;
+		border-radius: 6px;
 	}
 
 	.cards2 * {
 		box-sizing: border-box;
 		cursor: pointer;
+		border-radius: 6px;
 	}
 
 .card__img {
@@ -338,6 +347,7 @@ h1 {
 
 .card__link {
 font-size: 10pt;
+border-radius: 12px;
 }
 
 .card__content {
@@ -518,12 +528,12 @@ font-size: 10pt;
 /* Home Page Cards */
 .homecards {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1100px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	grid-auto-rows: auto;
 	width:100%;
-	gap: 30px;
+	gap: 20px;
 	padding-top: 15px;
 }
 
@@ -679,7 +689,7 @@ font-size: 10pt;
 }
 
 .homecontainerdiv {
-	max-width: 85%;
+	max-width: 90%;
 	background: linear-gradient(to right, #6caee9e7, #6fa9d8c7);
 	height: 550px;
 	align-content: center;
@@ -687,7 +697,7 @@ font-size: 10pt;
 }
 
 .homecontainerdiv2 {
-	max-width: 85%;
+	max-width: 90%;
 	background: linear-gradient(to right, #6caee9e7, #6fa9d8c7);
 	height: 550px;
 	align-content: center;
@@ -733,4 +743,24 @@ a[href*="//"] {
 
 .centeralign {
 	text-align: center;
+}
+
+.faqimg {
+	border-radius: 12px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+	object-fit: scale-down;
+	display: block;
+	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+}
+.faqimg2 {
+	border-radius: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	margin-bottom: 2px;
+	object-fit: scale-down;
+	display: block;
+	box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.01);
 }
