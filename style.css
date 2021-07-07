@@ -3,6 +3,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: linear-gradient(to right, #609dd3, #69a7db);
 	font-family: Myriad Pro;
+	min-height: 100vh;
 }
 
 h1 {
@@ -444,12 +445,14 @@ border-radius: 12px;
 	grid-auto-rows: auto;
 	width:100%;
 	gap: 30px;
-	padding-top: 30px;
+	padding-top: 20px;
+
 }
 
 	.servicecards * {
 		box-sizing: border-box;
 		cursor: pointer;
+		border-radius: 4px;
 	}
 
 .servicecard__img {
@@ -467,7 +470,7 @@ border-radius: 12px;
 .service__content {
 	line-height: 1.2;
 	font-size: 0.9em;
-	height: 270px;
+	height: 240px;
 	width: 100%;
 	padding: 1px;
 	text-align: center;
@@ -645,7 +648,22 @@ border-radius: 12px;
   font-size:14pt;
   color:#636363;
   text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
+
+.footer2 {
+	background-color:#26272b;
+	padding:8px 0 2px;
+	font-size:14pt;
+	color:#636363;
+	text-align: center;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+  }
 
 .footer h6 {
   color:rgba(255, 255, 255, 0.603);
@@ -663,6 +681,23 @@ border-radius: 12px;
   color:#3366cc;
   text-decoration:none;
 }
+
+.footer2 h6 {
+	color:rgba(255, 255, 255, 0.603);
+	font-size:17px;
+	margin-top:3px;
+	margin-bottom: 0px;
+  }
+  
+  .footer2 a {
+	  text-decoration: none;
+	  font-size: 15px;
+	  margin-left: 10px;
+  }
+  .footer2 a:hover {
+	color:#3366cc;
+	text-decoration:none;
+  }
 
 .footer-links{
   padding-left: 0;
