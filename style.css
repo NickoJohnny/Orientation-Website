@@ -3,7 +3,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: linear-gradient(to right, #609dd3, #69a7db);
 	font-family: Myriad Pro;
-	min-height: 100vh;
+	height: 100%;
 }
 
 h1 {
@@ -109,7 +109,17 @@ h1 {
 	font-size: 70px;
 	text-shadow: 1px 1px #a0a0a0;
 	font-family: Myriad Pro;
-	margin-bottom: 30%;
+}
+
+.hometitle2  {
+	float: center;
+	color: #eaeaea;
+	text-align: center;
+	padding: 30px 15px;
+	text-decoration: none;
+	font-size: 40px;
+	text-shadow: 1px 1px #a0a0a0;
+	font-family: Myriad Pro;
 }
 
 .homeheadings  {
@@ -526,105 +536,20 @@ border-radius: 12px;
 	transition: 0.2s;
 }
 
-
-/* Home Page Cards */
-.homecards {
-	margin: 0 auto;
-	max-width: 1100px;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	grid-auto-rows: auto;
-	width:100%;
-	gap: 20px;
-	padding-top: 15px;
-}
-
-	.homecards * {
-		box-sizing: border-box;
-		cursor: pointer;
-	}
-
-.homecard__img {
-	width: 100%;
-	height: 150px;
-	object-fit: cover;
-	display: block;
-	border-top: 2px solid #333333;
-	border-bottom: 1px solid #333333;
-	border-right: 2px solid #333333;
-	border-left: 2px solid #333333;
-	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.home__content {
-	line-height: 1.2;
-	font-size: 0.9em;
-	height: 160px;
-	width: 100%;
-	padding: 1px;
-	text-align: center;
-	background: #FFFFFF;
-	border-right: 2px solid #333333;
-	border-left: 2px solid #333333;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.homecard__info {
-	padding: 18px;
-	justify-content: space-between;
-	align-items: center;
-	color: #555555;
-	background: #eeeeee;
-	border-bottom: 2px solid #333333;
-	border-right: 2px solid #333333;
-	border-left: 2px solid #333333;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-	.homecard__info i {
-		font-size: 2.0em;
-		margin-right: 6px;
-		text-align: center;
-	}
-
-
-.homecard__content:hover {
-	transform: scale(1.02);
-	transition: 0.2s;
-}
-
-.homecard:hover {
-	transform: scale(1.01);
-	transition: 0.2s;
-	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.homecard__img:hover {
-	transform: scale(1.01);
-	transition: 0.2s;
-}
-
-.homecard:hover {
-	transform: scale(1.02);
-	transition: 0.2s;
-}
-
-.homecard__info:hover {
-	transform: scale(1.02);
-	transition: 0.2s;
-}
-
-.cardbutton {
-	font-size: 180%;
-	transform: scale(1.01);
-	transition: 0.2s;
-	border: transparent;
-	background-color: transparent;
-}
-
 .heroimage {
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("Media/test.jpg");
-	height: 1000px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("Media/uon2.jpg");
+	height: 1035px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+  }
+
+  .heroimage2 {
+	background-image: linear-gradient(rgba(26, 26, 26, 0.014), rgba(0, 0, 0, 0)), url("Media/test.jpg");
+	height: 1035px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -636,7 +561,7 @@ border-radius: 12px;
   .hero-text {
 	text-align: center;
 	position: absolute;
-	top: 35%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: rgb(255, 255, 255);
@@ -655,6 +580,18 @@ border-radius: 12px;
 
 .footer2 {
 	background-color:#26272b;
+	padding:8px 0 2px;
+	font-size:14pt;
+	color:#636363;
+	text-align: center;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+  }
+
+  .adminfooter {
+	background-color:#26272b00;
 	padding:8px 0 2px;
 	font-size:14pt;
 	color:#636363;
@@ -715,6 +652,14 @@ border-radius: 12px;
 .todocontainer1 {
 	max-width: 100%;
 	background: linear-gradient(to right, #6caee9e7, #6fa9d8c7);
+}
+
+.indexcontainer {
+	max-width: 100%;
+	background-color: rgba(0, 0, 0, 0.02);
+	height: 300px;
+	align-content: center;
+	margin: auto;
 }
 
 .homecontainerdiv {
