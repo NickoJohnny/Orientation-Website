@@ -11,10 +11,9 @@ h1 {
     height: 36px;
 }
 
-
 .zoom:hover {
 	transform: scale(1.1);
-	transition: 0.5s
+	transition: 0.4s
 }
 
 .navbutton {
@@ -642,24 +641,23 @@ border-radius: 12px;
 
   .footer {
   background-color:#26272b;
-  padding:10px 0 5px;
-  font-size:15px;
-  line-height:20px;
-  color:#737373;
+  padding:8px 0 2px;
+  font-size:14pt;
+  color:#636363;
   text-align: center;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer h6 {
-  color:rgba(255, 255, 255, 0.904);
-  font-size:20px;
-  margin-top:6px;
-  margin-bottom: 3px;
+  color:rgba(255, 255, 255, 0.603);
+  font-size:17px;
+  margin-top:3px;
+  margin-bottom: 0px;
 }
 
 .footer a {
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 15px;
+	margin-left: 10px;
 }
 .footer a:hover {
   color:#3366cc;
@@ -668,21 +666,17 @@ border-radius: 12px;
 
 .footer-links{
   padding-left: 0;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  list-style:none;
   text-decoration:none;
 }
 
 .footer-links a {
-  color:#737373
+  color:#696969
 }
 
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+.footer-links a:active,.footer-links a:hover {
   color:#4e83ee;
 }
 
-  
 .todocontainer1 {
 	max-width: 100%;
 	background: linear-gradient(to right, #6caee9e7, #6fa9d8c7);
