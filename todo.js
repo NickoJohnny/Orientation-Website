@@ -9,7 +9,8 @@ function checkboxes1(){
 			    count++; 
 			}
 		}
-		var percentage = (count/4)*100;
+		var percentage = (count/3)*100;
+		percentage = Math.round(percentage);
 
 
 		var id = setInterval(frame, 10);
@@ -85,7 +86,8 @@ function checkboxes3(){
 			    count++; 
 			}
 		}
-		var percentage = (count/4)*100;
+		var percentage = (count/3)*100;
+		percentage = Math.round(percentage)
 
 
 		var id = setInterval(frame, 10);
