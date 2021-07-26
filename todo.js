@@ -98,7 +98,7 @@ function checkboxes3(){
 						document.getElementById("Percent3").innerHTML = total3+"%";
 				}
 				else if (percentage == 0) {
-					total2--;
+					total3--;
 					document.getElementById("Bar3").style.width = total3+"%";
 					document.getElementById("Percent3").innerHTML = total3+"%";
 				}
