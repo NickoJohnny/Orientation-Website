@@ -582,6 +582,9 @@ border-radius: 12px;
   width: 100%;
   margin-top: 20px;
 }
+.footer1 {
+	position: absolute;
+}
 
 .footer2 {
 	background-color:#26272b;
