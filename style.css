@@ -150,7 +150,8 @@ h1 {
 	top: 240px;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	width: 40%;
+	/* width: 40%; */
+	width: 100%;
 	height: 0px;
 }
 
@@ -159,13 +160,15 @@ h1 {
 	background-color: #5c5c5ce8;
 	color: white;
 	cursor: pointer;
-	width: 65%;
+/* 	width: 65%; */
+	width: 26%;
 	border: none;
 	border-radius: 16px;
 	text-align: center;
 	outline: none;
 	font-size: 18px;
-	margin-top: 20px;
+/* 	margin-top: 20px; */
+	margin: 20px 20% 0 ;
 	padding: 16px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.116);
 }
@@ -184,7 +187,8 @@ h1 {
 	margin: 0 auto;
 	font-size: 17px;
 	background-color: #f1f1f1e1;
-	width: 56%;
+/* 	width: 56%; */
+	width: 22%;
 	text-align: center;
 	border-radius: 15px;
 }
@@ -576,6 +580,7 @@ border-radius: 12px;
   bottom: 0;
   left: 0;
   width: 100%;
+  margin-top: 20px;
 }
 
 .footer2 {
