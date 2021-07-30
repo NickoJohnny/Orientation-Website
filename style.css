@@ -43,7 +43,8 @@ h1 {
 
 
 .changeCampus {
-	float: right;
+	margin-left: auto;
+	white-space: nowrap;
 	height: 80px;
 	width: 160px;
 	font-size: 14pt;
@@ -70,6 +71,7 @@ h1 {
 }
 
 .topnav {
+	display: flex;
 	overflow: hidden;
 	text-align: center;
 	height: 80px;
@@ -79,7 +81,8 @@ h1 {
 }
 
 	.topnav a {
-		float: left;
+		white-space: nowrap;
+		
 		color: #eaeaea;
 		text-align: center;
 		padding: 30px 15px;
