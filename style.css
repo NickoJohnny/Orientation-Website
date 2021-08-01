@@ -586,7 +586,7 @@ border-radius: 12px;
   margin-top: 20px;
 }
 .footer1 {
-	position: absolute;
+	position: fixed;
 }
 
 .footer2 {
