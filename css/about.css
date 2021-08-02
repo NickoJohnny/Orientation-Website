@@ -28,13 +28,20 @@
 .items {
     margin-left: 44px;
     margin-top: 16px;
-    padding: 10px;
+    
     width: 90%;
-    font-family: "Raleway", sans-serif;
+    padding: 10px;
     background-color: #eee;
     display: none;
     
 } 
+.items p {
+    padding: 20px;
+    line-height: 1.75;
+    text-indent: 5%;
+    text-align: left;
+    font-family: "Times New Roman";
+}
 li {
     list-style: none;
 }
