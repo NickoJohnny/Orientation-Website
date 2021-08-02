@@ -1,0 +1,40 @@
+.tab {
+    display: flex;
+    margin-left: 20px;
+    
+}
+.tab_list li{
+    width: 100%;
+    height: 80px;
+    color: #888;
+    background-color: #ddd;
+    line-height: 80px;
+    padding: 0 20px;
+    text-indent: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-left: 5px solid #ddd;
+}
+.tab_list .current {
+    border-left: 5px solid #00acee;
+    color: #00acee;
+    background: #eee;
+}
+
+
+.items {
+    margin-left: 44px;
+    margin-top: 16px;
+    padding: 10px;
+    width: 90%;
+    font-family: "Raleway", sans-serif;
+    background-color: #eee;
+    display: none;
+    
+} 
+li {
+    list-style: none;
+}
