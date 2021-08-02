@@ -673,6 +673,34 @@ border-radius: 12px;
 	margin: auto;
 }
 
+.indexcontainer2 {
+	max-width: 100%;
+	background-color: rgba(19, 19, 19, 0.048);
+	height: 300px;
+	align-content: center;
+	margin: auto;
+	transform: translate(-50%, 0%);
+}
+
+.homebutton {
+	border-style: none;
+	border-radius: 6px;
+	font-size: 15px;
+	padding: 12px;
+	background-color: rgba(32, 32, 32, 0.562);
+	color: #fff;
+	margin: 0%;
+	height: 75px;
+	width: 110px;
+	cursor: pointer;
+	transform: translate(-0%, 0%);
+}
+
+.homebutton:hover {
+	transform: scale(1.01);
+	transition: 0.2s;
+}
+
 .homecontainerdiv {
 	max-width: 90%;
 	background: linear-gradient(to right, #6caee9e7, #6fa9d8c7);
