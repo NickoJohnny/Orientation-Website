@@ -114,7 +114,7 @@ function checkboxes3(){
 	
 }
 
-// More info buttons 1-12
+// More info buttons
 // Expand opens, close closes
 function expand1() {
 	var x = document.getElementById("pop-up1");
@@ -153,56 +153,4 @@ function expand3() {
 
 function closepop3() {
 	document.getElementById("pop-up3").style.display = "none";
-}
-
-function expand4() {
-	var x = document.getElementById("pop-up4");
-	if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-}
-
-function closepop4() {
-	document.getElementById("pop-up4").style.display = "none";
-}
-
-function expand5() {
-	var x = document.getElementById("pop-up5");
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-}
-
-function closepop5() {
-	document.getElementById("pop-up5").style.display = "none";
-}
-
-function expand6() {
-	var x = document.getElementById("pop-up6");
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-}
-
-function closepop6() {
-	document.getElementById("pop-up6").style.display = "none";
-}
-
-function expand7() {
-	var x = document.getElementById("pop-up7");
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-}
-
-function closepop7() {
-	document.getElementById("pop-up7").style.display = "none";
 }
