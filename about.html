@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="icon" type="image/jpg" href="Media/favicon.png"/>
 	<script src="script.js"></script>
+	<script src="js/jquery.js"></script>
 	<title>About UON</title>
 </head>
 <body>
@@ -39,7 +40,23 @@
 					
 					<p>Since its foundation, the staff, students and leaders of the University have introduced unique ways of thinking and operating that have led to remarkable outcomes.</p>
 					<img src="media/history.jpg" width="100%" alt="">
-<!-- 					a -->
+					<div class="menu">
+						<a href="###">1951 - 1965: The Early Days</a>
+					</div>
+					<div class="menu_content">
+						<p>The University of Newcastle began as a college of the University of New South Wales. It opened in late 1951 and accepted its first students in 1952.</p>
+						<p>It was located at Tighes Hill—on the same site as the TAFE NSW Hunter Institute, then known as a Technical College. The staff and students of the Newcastle University college shared cramped conditions with their Technical College colleagues. Space was at such a premium that one lecturer's office was his car; another lecturer, Dr Beryl Nashar, was accommodated with a flimsy partition in the typing pool.</p>
+						<p>The community had campaigned for a University since the 1940s. While the Newcastle University College offered a university education in the region, the community wanted more. They campaigned throughout the 50s to get it.</p>
+						<p>In 1962, the Vice-Chancellor of UNSW, Sir Philip Baxter, finally relented. Work began on transforming the fledgling college to a university in the full sense.</p>
+					</div>
+					
+					<script>
+						$(function(){
+							$('.menu').click(function(){
+								$(this).next('.menu_content').toggle();
+							});
+						});
+					</script>
 				</div>
 				<div class="items">2</div>
 				<div class="items">3</div>
