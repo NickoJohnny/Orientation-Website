@@ -41,6 +41,24 @@
     text-align: left;
     font-size: 14px;
 }
+.items h2 {
+    
+    /* padding: 0 20px; */
+    font-family: MessinaSans,sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 30px;
+    
+}
+
+.items h2::after {
+    content: "";
+    display: block;
+    width: 19%;
+    height: 3px;
+    background-color: #D9DBE0;;
+    margin-top: 20px;
+}
 li {
     list-style: none;
 }
