@@ -1,14 +1,14 @@
 .tab {
     display: flex;
-    margin-left: 20px;
+    margin-left: 15%;
     
 }
 .tab_list li{
-    width: 100%;
-    height: 80px;
+    width: 95%;
+    height: 60px;
     color: #888;
     background-color: #ddd;
-    line-height: 80px;
+    line-height: 60px;
     padding: 0 20px;
     text-indent: 20px;
     cursor: pointer;
@@ -26,20 +26,20 @@
 
 
 .items {
-    margin-left: 44px;
+    margin-left: 5%;
     margin-top: 16px;
-    width: 90%;
-    padding: 10px;
+    width: 60%;
+    padding: 40px;
     background-color: #eee;
     display: none;
     
 } 
 .items p {
-    padding: 20px;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
     line-height: 1.75;
     text-indent: 5%;
     text-align: left;
-    font-family: "Times New Roman";
+    font-size: 14px;
 }
 li {
     list-style: none;
