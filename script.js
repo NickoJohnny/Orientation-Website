@@ -95,3 +95,10 @@ window.onload = function() {
 	var campus=localStorage.getItem("campus");
    	document.getElementById("currentCampus").innerHTML= campus;
 }
+
+function openTab(href) {
+	Object.assign(document.createElement('a'), {
+	  target: '_blank',
+	  href: href,
+	}).click();
+  }
