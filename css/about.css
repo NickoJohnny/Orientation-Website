@@ -1,6 +1,6 @@
 .tab {
     display: flex;
-    margin-left: 15%;
+    margin-left: 12%;
     
 }
 .tab_list li{
@@ -26,9 +26,9 @@
 
 
 .items {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 16px;
-    width: 60%;
+    width: 70%;
     padding: 40px;
     background-color: #eee;
     display: none;
