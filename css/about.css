@@ -63,15 +63,33 @@ li {
     list-style: none;
 }
 
-.menu {
+.menu {    
     
-    height: 50px;
-    background-color: pink;
-    margin-top: 10px;
+    height: 35px;
+    line-height: 15px;
     
-    line-height: 50px;
+}
+.menu a {
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    display: block;
+    padding: 10px 40px 10px 20px;
+    text-decoration: none;
+    color: #5b6270;
+    font-weight: 700;
+    cursor: pointer;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: #1090d5;
 }
 
 .menu_content {
     display: none;
+    
 } 
+
+.history {
+    margin-bottom: -1px;
+    border: 1px solid gray;
+    box-sizing: content-box;
+}
