@@ -127,6 +127,20 @@ li {
     width: 25%;
     
 }
+.rank_a:hover strong{
+    color: #06c;
+}
+.rank_a:hover span{
+    color: white;
+    background-color: #06c;
+    border-color: #06c;
+}
+
+
+
+.rank a {
+    cursor: pointer;
+}
 
 .rank_d strong {
     font-family: 'FuseV2','Helvetica Neue',Arial,sans-serif;
@@ -140,6 +154,20 @@ li {
     display: block;
     font-family: 'Heuristica';
     color: #5b6270;
+}
+.rank_d span {
+    width: 70%;    
+    border: 2px solid #2d3138;
+    color: #2d3138;
+    text-decoration: none;
+    padding: 1px 1px;
+    margin: 10px auto 0;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 10px;
+    text-shadow: none;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 
 .rank_d::before {
