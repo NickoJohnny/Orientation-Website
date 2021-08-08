@@ -46,6 +46,9 @@
     display: none;
     
 } 
+.item1 {
+    display: none;
+}
 .items p {
     font-family: 'Helvetica Neue',Arial,sans-serif;
     line-height: 1.75;
@@ -116,7 +119,7 @@ li {
 
 .rank {
     display: flex;
-    
+    padding: 0;
 }
 
 .rank_d {
@@ -125,6 +128,23 @@ li {
     display: flex;
     flex-direction: column;
     width: 25%;
+    
+}
+.rank_c {
+    /* border: 1px solid pink ; */
+    width: 33%;
+    padding: 0 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rank_c::before {
+    content: '\e921';
+    font-family: 'icomoon';
+    color: orange;
+    font-size: 50px;
+    margin-bottom: 15px;
     
 }
 .rank_a:hover strong{
