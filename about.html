@@ -121,6 +121,50 @@
 					</script>
 				</div>
 				<div class="items">
+					<h2>Campus Life</h2>
+					<div  class="tab_list2">
+						<ul class="rank">
+							<li class="rank_c current2">
+								<strong>Callaghan</strong>
+							
+							</li>
+							<li class="rank_c">
+								<strong>NUSpace</strong>
+							
+							</li>
+							<li class="rank_c">
+								<strong>Ourimbah</strong>
+							
+							</li>
+						</ul>
+					</div>
+					<div class="tab_con2">
+						<div class="item1" style="display: block;">
+							<p>This strategic plan is of our regions and for our regions. Our University, its cities and regions have always been looking ahead. The spirit of looking to the future to imagine and then realise possibilities is at the essence of the University of Newcastle: our motto is ‘I look ahead’.</p>
+
+						</div>
+						<div class="item1">
+							<p>112This strategic plan is of our regions and for our regions. Our University, its cities and regions have always been looking ahead. The spirit of looking to the future to imagine and then realise possibilities is at the essence of the University of Newcastle: our motto is ‘I look ahead’.</p>
+
+						</div>
+						<div class="item1">
+							<p>3332This strategic plan is of our regions and for our regions. Our University, its cities and regions have always been looking ahead. The spirit of looking to the future to imagine and then realise possibilities is at the essence of the University of Newcastle: our motto is ‘I look ahead’.</p>
+
+						</div>
+					</div>
+					<!-- <p>This strategic plan is of our regions and for our regions. Our University, its cities and regions have always been looking ahead. The spirit of looking to the future to imagine and then realise possibilities is at the essence of the University of Newcastle: our motto is ‘I look ahead’.</p> -->
+				</div>
+				<script>
+					$(function() {
+						$(".tab_list2 li").click(function() {
+							$(this).addClass("current2").siblings().removeClass("current2");
+							var indexa = $(this).index();
+							$(".tab_con2 .item1").eq(indexa).show().siblings().hide();
+						});
+						
+					});
+				</script>
+				<div class="items">
 					<h2>Rankings</h2>
 					<div class="rank">
 						<div class="rank_d rank_a"  onclick="openTab('https://www.topuniversities.com/university-rankings/world-university-rankings/2022');">
@@ -149,7 +193,7 @@
 					<p>In the 2021 QS World University Rankings our University climbed ten places from last year to now sit among the world’s Top 200 Universities. Our sector has faced a number of external challenges and the University of Newcastle itself has dealt with bushfires, droughts as well as a pandemic affecting our students, staff and communities in the past year.</p>
 					<p>The move from 207 to 197 in twelve months reflects the University’s unwavering focus on delivering inspiring and innovative teaching and learning programs for our students and leading critical research breakthroughs.</p>
 				</div>
-				<div class="items">3</div>
+				
 				<div class="items">4</div>
 				<div class="items">5</div>
 			</div>
