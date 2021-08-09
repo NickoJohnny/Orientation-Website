@@ -10,18 +10,30 @@
     font-display: block;
   }
 
+  /* Version center */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .tab {
     display: flex;
-    margin-left: 12%;
+/*     margin-left: 12%; */
     
 }
+.tab_list {
+    width: 25%;
+}
+.tab_con {
+    width: 75%;
+}
 .tab_list li{
-    width: 95%;
+/*     width: 95%; */
     height: 60px;
     color: #888;
     background-color: #ddd;
     line-height: 60px;
-    padding: 0 20px;
+/*     padding: 0 20px; */
     text-indent: 20px;
     cursor: pointer;
     font-weight: 600;
@@ -38,9 +50,9 @@
 
 
 .items {
-    margin-left: 3%;
+/*     margin-left: 3%; */
     margin-top: 16px;
-    width: 70%;
+    width: 80%;
     padding: 40px;
     background-color: #eee;
     display: none;
