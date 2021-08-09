@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	background: linear-gradient(to right, #609dd3, #69a7db);
+	/*background-color: #FFFFFF;*/
 	font-family: Myriad Pro;
 	height: 100%;
 }
@@ -71,6 +72,7 @@ a:visited {
 	text-align: center;
 	height: 80px;
 	margin-bottom: 20px;
+	/*background-color: #26272b;*/
 }
 
 	.topnav a {
@@ -520,6 +522,17 @@ text-decoration: none;
   .heroimage2 {
 	background-image: linear-gradient(rgba(26, 26, 26, 0.014), rgba(0, 0, 0, 0)), url("Media/test.jpg");
 	height: 1035px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+  }
+  
+  .heroimage3 {
+	background-image: url("Media/HERO_People.jpg");
+	height: 435px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
