@@ -206,7 +206,7 @@ li {
 			list-style: none;
 			margin: 0 auto 20px;
 			padding: 0;
-			background-color: pink;
+/* 			background-color: pink; */
 			overflow: hidden;
 		}
 
@@ -223,15 +223,21 @@ li {
 
 		.a_slide:nth-of-type(1) {
 			background-image: url(../Media/a_slide1.png);
+			background-size: auto 100%;
+            		background-repeat: no-repeat;
 		}
 
 		.a_slide:nth-of-type(2) {
 			background-image: url(../Media/a_slide2.png);
+			background-size: auto 100%;
+            		background-repeat: no-repeat;
 			left: 100%;
 		}
 
 		.a_slide:nth-of-type(3) {
 			background-image: url(../Media/a_slide3.png);
+			background-size: auto 100%;
+            		background-repeat: no-repeat;
 			left: 200%;
 		}
 		input[type="radio"] {
