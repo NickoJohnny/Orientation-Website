@@ -11,3 +11,5 @@
 *.sqlite
 *.sqlite
 .vs/
+*.sqlite
+*.json
