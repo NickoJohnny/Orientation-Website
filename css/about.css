@@ -15,6 +15,9 @@
     width: 1200px;
     margin: 0 auto;
 }
+.item3 {
+    display: none;
+}
 
 .tab {
     display: flex;
