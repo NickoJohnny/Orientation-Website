@@ -68,7 +68,7 @@
     text-align: left;
     font-size: 14px;
 }
-.items h2 {
+.items_h2 {
     
     /* padding: 0 20px; */
     font-family: MessinaSans,sans-serif;
@@ -78,10 +78,10 @@
     
 }
 
-.items h2::after {
+.items_h2::after {
     content: "";
     display: block;
-    width: 19%;
+/*     width: 19%; */
     height: 3px;
     background-color: #D9DBE0;;
     margin-top: 20px;
