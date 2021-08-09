@@ -20,8 +20,23 @@
 	  	<a href="faq.html">FAQ</a>
     </div>
 
-		<h1>University of Newcastle</h1>
-		<h2 class="centeralign">COPY AND PASTED FOR TESTING</h2>
+		<div class="tab_con3">
+			<div class="item3 w" style="display: block;">
+				<h1>Uon</h1>
+			</div>
+			<div class="item3 w">
+				<h1>Campus Life</h1>
+			</div>
+			<div class="item3 w">
+				<h1>rankings</h1>
+			</div>
+			<div class="item3 w">
+				<h1>FAQ</h1>
+			</div>
+			<div class="item3 w">
+				<h1>orientation goals</h1>
+			</div>
+		</div>
 
 		<div class="tab w">
 			<div class="tab_list">			
@@ -35,7 +50,7 @@
 			</div>
 			<div class="tab_con">
 				<div class="items" style="display: block;">
-					<h2>History</h2>
+					<h2 class="items_h2">History</h2>
 					<p>The history of the University of Newcastle, as for all great universities, has been characterised by leaders who have been willing to challenge the status quo and transform fields of education and research.</p>
 					
 					<p>Since its foundation, the staff, students and leaders of the University have introduced unique ways of thinking and operating that have led to remarkable outcomes.</p>
@@ -121,7 +136,7 @@
 					</script>
 				</div>
 				<div class="items">
-					<h2>Campus Life</h2>
+					<h2 class="items_h2">Campus Life</h2>
 					<div  class="tab_list2">
 						<ul class="rank">
 							<li class="rank_c current2">
@@ -168,7 +183,7 @@
 					});
 				</script>
 				<div class="items">
-					<h2>Rankings</h2>
+					<h2 class="items_h2">Rankings</h2>
 					<div class="rank">
 						<div class="rank_d rank_a"  onclick="openTab('https://www.topuniversities.com/university-rankings/world-university-rankings/2022');">
 							<strong>Top200</strong>
@@ -220,6 +235,14 @@
 					items[index].style.display = 'block';
 	
 				}
+				$(function() {
+						$(".tab_list li").click(function() {
+							$(this).addClass("current").siblings().removeClass("current");
+							var indexb = $(this).index();
+							$(".tab_con3 .item3").eq(indexb).show().siblings().hide();
+						});
+						
+					});	
 			}
 		</script>
 
