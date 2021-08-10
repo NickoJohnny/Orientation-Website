@@ -1,7 +1,8 @@
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	background: linear-gradient(to right, #609dd3, #69a7db);
+	/* background: linear-gradient(to right, #609dd3, #69a7db); */
+	background: #FFFFFF;
 	font-family: Myriad Pro;
 	height: 100%;
 }
@@ -54,7 +55,7 @@ a:visited {
 	display: none;
 	border-radius: 16px;
 	position: absolute;
-	background-color: #f9f9f904;
+	background-color: #f0f0f004;
 	min-width: 140px;
 	box-shadow: 6px 8px 16px 0px rgba(0, 0, 0, 0.274);
 	z-index: 1;
@@ -65,7 +66,17 @@ a:visited {
 	margin-top: 78px;
 }
 
+
 .topnav {
+	display: flex;
+	overflow: hidden;
+	text-align: center;
+	height: 80px;
+	margin-bottom: 20px;
+	background-color: rgb(38,39,43);
+}
+
+.topnav2 {
 	display: flex;
 	overflow: hidden;
 	text-align: center;
@@ -75,25 +86,44 @@ a:visited {
 
 	.topnav a {
 		white-space: nowrap;
-		
 		color: #eaeaea;
 		text-align: center;
 		padding: 30px 15px;
 		text-decoration: none;
 		font-size: 20px;
-		text-shadow: 1px 1px #a0a0a0;
-
 	}
 
 		.topnav a:hover {
-			transform: scale(1.1);
+			transform: scale(1.09);
 			transition: 0.2s
 		}
 
 		.topnav a.active {
-			font-size: 19pt;
+			font-size: 20pt;
 			background-color:transparent;
-			color: #e78325;
+			color: #e7ad25;
+}
+
+.topnav2 a {
+	white-space: nowrap;
+	color: #eaeaea;
+	text-align: center;
+	padding: 30px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	text-shadow: 1px 1px #a0a0a0;
+
+}
+
+	.topnav2 a:hover {
+		transform: scale(1.1);
+		transition: 0.2s
+	}
+
+	.topnav2 a.active {
+		font-size: 20pt;
+		background-color:transparent;
+		color: #e7ba25;
 }
 
 .hometitle  {
@@ -172,10 +202,10 @@ a:visited {
 	float: none;
 	margin: 0 auto;
 	font-size: 17px;
-	background-color: #f1f1f1e1;
-	width: 22%;
+	background-color: #e2e2e2e1;
+	width: 24%;
 	text-align: center;
-	border-radius: 15px;
+	border-radius: 16px;
 }
 
 .active, .content:hover {
@@ -199,12 +229,12 @@ a:visited {
 
 .dropdown-campus a {
   float: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: center;
-
+  background-color: rgb(46, 46, 46);
 }
 
 .logoimage {
@@ -231,16 +261,19 @@ a:visited {
 	color:#000!important;
 	background-color:#f1f1f1!important;
 	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.198);
 }
 
 .progess-bar {
 	color:#fff!important;
-	background-color:#4c6daf!important;
+	background-color:#82b0ec!important;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.322);
 }
 
 .Percent {
 	text-align: center;
 	color: black; 
+	font-size: 15pt;
 }
 
 .checkbox {
@@ -281,7 +314,6 @@ a:visited {
 	border: solid white;
 	border-width: 0 3px 3px 0;
 	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
@@ -361,7 +393,7 @@ text-decoration: none;
 	padding-left: 33px;
 	align-items: center;
 	color: #555555;
-	background: #eeeeee;
+	background: #e6e6e6;
 	font-size: 0.75em;
 	border-bottom: 2px solid #333333;
 	border-right: 2px solid #333333;
@@ -538,7 +570,7 @@ text-decoration: none;
   }
 
   .footer {
-  background-color:#26272b;
+  background-color:rgb(38,39,43);
   padding:8px 0 2px;
   font-size:14pt;
   color:#636363;
