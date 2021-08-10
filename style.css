@@ -547,7 +547,7 @@ text-decoration: none;
 
 .heroimage {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("Media/uon2.jpg");
-	height: 1035px;
+	height: 1140px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -579,26 +579,25 @@ text-decoration: none;
 
   .footer {
   background-color:rgb(38,39,43);
-  padding:8px 0 2px;
-  font-size:14pt;
+  padding:4px 0 2px;
+  font-size:15pt;
   color:#636363;
   text-align: center;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
+  transform: translate(0%, 124%);
 }
 
 .footer h6 {
   color:rgba(255, 255, 255, 0.603);
-  font-size:17px;
-  margin-top:3px;
+  font-size:19px;
+  margin-top:10px;
   margin-bottom: 0px;
 }
 
 .footer a {
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 17px;
 	margin-left: 10px;
 }
 .footer a:hover {
@@ -609,6 +608,7 @@ text-decoration: none;
 .footer-links{
   padding-left: 0;
   text-decoration:none;
+  padding-top: 10px;
 }
 
 .footer-links a {
