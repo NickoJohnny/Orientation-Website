@@ -1,6 +1,5 @@
 body {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
 	/* background: linear-gradient(to right, #609dd3, #69a7db); */
 	background: #FFFFFF;
 	font-family: Myriad Pro;
@@ -133,8 +132,7 @@ a:visited {
 	padding: 30px 15px;
 	text-decoration: none;
 	font-size: 70px;
-	text-shadow: 1px 1px #a0a0a0;
-	font-family: Myriad Pro;
+	text-shadow: 3px 3px 3px #a0a0a0;
 }
 
 .hometitle2  {
@@ -144,8 +142,7 @@ a:visited {
 	padding: 30px 15px;
 	text-decoration: none;
 	font-size: 40px;
-	text-shadow: 1px 1px #a0a0a0;
-	font-family: Myriad Pro;
+	text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .center {
@@ -187,7 +184,7 @@ a:visited {
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.116);
 }
 
-	.active, .collapsible:hover {
+	.collapsible:hover {
 		background-color: #2f2e2ebb;
 		transform: scale(1.04);
 		transition: 0.2s ease-in-out;
@@ -207,7 +204,7 @@ a:visited {
 	border-radius: 16px;
 }
 
-.active, .content:hover {
+.content:hover  {
 	transform: scale(1.005);
 	transition: 0.2s ease-in-out;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.322);
@@ -561,13 +558,14 @@ text-decoration: none;
 
   .heroimage2 {
 	background-image: linear-gradient(rgba(26, 26, 26, 0.014), rgba(0, 0, 0, 0)), url("Media/test.jpg");
-	height: 1035px;
+	height: 1150px;
 	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
+	background-color: #464646;
   }
 
   .hero-text {
