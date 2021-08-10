@@ -176,24 +176,23 @@ a:visited {
 	background-color: #505050e8;
 	color: white;
 	cursor: pointer;
-/* 	width: 65%; */
 	width: 26%;
 	border: none;
 	border-radius: 16px;
 	text-align: center;
 	outline: none;
 	font-size: 18px;
-/* 	margin-top: 20px; */
 	margin: 20px 20% 0 ;
 	padding: 16px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.116);
 }
 
 	.active, .collapsible:hover {
-		background-color: #5f5e5ea9;
-		transform: scale(1.03);
-		transition: 0.2s;
-			}
+		background-color: #2f2e2ebb;
+		transform: scale(1.04);
+		transition: 0.2s ease-in-out;
+		box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.322);
+}
 
 .content {
 	padding: 0 26px;
@@ -201,7 +200,7 @@ a:visited {
 	overflow: hidden;
 	float: none;
 	margin: 0 auto;
-	font-size: 17px;
+	font-size: 18px;
 	background-color: #e2e2e2e1;
 	width: 24%;
 	text-align: center;
@@ -209,9 +208,10 @@ a:visited {
 }
 
 .active, .content:hover {
-	transform: scale(1.01);
-	transition: 0.1s;
-		}
+	transform: scale(1.005);
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.322);
+}
 
 .logoimg {
 	padding-left: 18px;
@@ -248,6 +248,15 @@ a:visited {
 
 .faqH2 {
 	padding-top: 50px;
+	font-weight: bold;
+	font-size: 24pt;
+	text-shadow: 0px 1px 1px #0f0f0f;
+}
+
+.faqH {
+	font-weight: bold;
+	font-size: 24pt;
+	text-shadow: 0px 1px 1px #0f0f0f;
 }
 
 
@@ -274,6 +283,7 @@ a:visited {
 	text-align: center;
 	color: black; 
 	font-size: 15pt;
+	font-weight: bold;
 }
 
 .checkbox {
