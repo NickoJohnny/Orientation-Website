@@ -18,10 +18,11 @@
 .item3 {
     display: none;
     position: relative;
-    background-image: url(../Media/about_banner.png);
-    background-size: 100% ;
+    background-color: #CC0033;	
+/*     background-image: url(../Media/about_banner.png); */
+/*     background-size: 100% ; */
     height: 150px;
-    background-repeat: no-repeat;	
+/*     background-repeat: no-repeat;	 */
 }
 .item3_t {
     font-size: 60px;
