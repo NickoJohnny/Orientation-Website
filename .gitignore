@@ -1,0 +1,8 @@
+
+*.cache
+.vs/OrientationWebsite/config/applicationhost.config
+.vs/OrientationWebsite/v16/.suo
+*.cs
+*.cache
+OrientationWebsite/obj/Debug/OrientationWebsite.csprojAssemblyReference.cache
+OrientationWebsite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
