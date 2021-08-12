@@ -28,4 +28,6 @@ OrientationWebsite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.sqlite
 .vs/
 .packages/
+packages
+
 
