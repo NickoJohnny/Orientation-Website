@@ -6,3 +6,11 @@
 *.cache
 OrientationWebsite/obj/Debug/OrientationWebsite.csprojAssemblyReference.cache
 OrientationWebsite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.pdb
+*.dll
+*.cache
+*.txt
+*.cache
+*.pdb
+*.dll
+*.user
