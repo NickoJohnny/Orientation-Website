@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/jpg" href="Media/favicon.png"/>
+	<script src="script.js"></script>
+	<title>UoN Services</title>
+   
+</head>
+	<body>
+		<div class="topnav">
+		<img class="logoimg" src="Media/favicon.png">
+	  	<a href="home.html">Home</a>
+	  	<a href="about.html">About</a>
+      	<a href="todo.html">To-Do List</a>
+		<a class="active"#services>Services</a>
+        <a href="Staff.aspx">Staff</a>
+	  	<a href="faq.html">FAQ</a>
+
+		  <button onclick="changeCampusDropdown();" class="changeCampus">
+			<span id="currentCampus"></span>
+			 <hr>
+			 <span>Change Campus</span>
+		 </button>
+		 
+    	<div id="menuDropdown" class="dropdown-campus">
+    	    <a OnClick="changeCallaghan(); services();">Callaghan</a>
+    	    <a OnClick="changeNuSpace(); services();">NuSpace</a>
+    	    <a OnClick="changeOurimbah(); services();">Ourimbah</a>
+      </div>
+    </div>
+		
+	<h1>NUSpace Services</h1>
+	<h3 class="homepadding">A list of all services provided by or via the university</h3>
+
+
+	<div class="servicecards">
+		<div class="servicecard" onclick="openTab('https://wattspacegallery.wordpress.com/');">
+		   <img class="servicecard__img" src="Media/NS_WattSpace.jpg" alt="">
+			   <div class="service__content">
+				<h2>Watt Space Gallery</h2>
+				<h4>Contemporary Art Space </h4>
+				<p class="ptext">The Watt Space Gallery provides a assortment of exhibits from contemporary art and craft to cultural.</p>
+	</div>
+    <div class="servicecard__info centeralign">
+		<p class="centeralign">Northumberland House Cnr King and Auckland Streets, Newcastle NSW 2300</p> 
+		<p class="centeralign">Saturdays - 12 to 4PM</p> 
+		<p class="centeralign">General Enquiries – wattspacegallery@newcastle.edu.au, 4921 8733</p> 
+		<p class="centeralign">Art Curator (Gillean Shaw) – Gillean.Shaw@newcastle.edu.au, +61 2 4985 4910</p>
+	</div>
+</div>
+
+
+	<div class="servicecard" onclick="openTab('https://www.newcastle.edu.au/campus-life/newcastle/newcastle-city/spaces-and-places/the-conservatorium');">
+	   <img class="servicecard__img" src="Media/NS_Conservatorium.jpg" alt="">
+		   <div class="service__content">
+			<h2>The Conservatorium</h2>
+			<h4>Music Concert Hall</h4>
+	   
+			<p class="ptext">The Conservatorium is a facility designed to host concerts and music artists from around the world.</p>
+			<p class="ptext">Furthermore, the Conservatorium offers students the chance to learn how to play an instrument and become musicians.</p>
+</div>
+<div class="servicecard__info centeralign">
+	<p class="centeralign">Corner of Laman and Auckland streets Newcastle, NSW, Australia 2300</p>
+	<p class="centeralign">Monday to Friday - 8:30AM to 4:30PM</p>
+	<br>
+	<p class="centeralign">General enquiries - conservatorium@newcastle.edu.au, +61 2 492 18900</p>
+	<br>
+	
+</div>
+</div>
+
+<div class="servicecard" onclick="openTab('https://www.theforum.org.au/');">
+	<img class="servicecard__img" src="Media/theforum.jpg" alt="">
+		<div class="service__content">
+		 <h2>The Forum</h2>
+		 <h4>Health & Wellness Centre</h4>
+	
+		 <p class="ptext">The Forum is a multipurpose gymnasium, which offers personal training, fitness programs and swimming activities to students at Newcastle University.</p>
+</div>
+<div class="servicecard__info centeralign">
+ <p class="centeralign">5 Workshop Way, Honeysuckle NSW 2300</p> 
+ <p class="centeralign">Mondays to Friday - 5:30AM to 9PM</p>
+ <p class="centeralign">Saturday to Sunday - 7AM to 6PM</p>
+ <br>
+ <p class="centeralign">General enquiries - info@theforum.org.au, 02 4921 7001</p>
+</div>
+</div>
+
+<div class="servicecard" onclick="openTab('https://www.newcastle.edu.au/library/access/places-and-spaces/city');">
+	<img class="servicecard__img" src="Media/NS_Library.jpg" alt="">
+		<div class="service__content">
+		 <h2>NUspace Library</h2>
+		 <h4>Library & Study</h4>
+	
+		 <p class="ptext">The NUSpace library provides a collection of books, academic resources, study areas, computers and collaboration rooms for students to freely use.</p>
+ </div>
+ <div class="servicecard__info centeralign">
+ <p class="centeralign">Hunter St &, Auckland St, Newcastle NSW 2300</p>	
+ <p class="centeralign">Open 24 Hours</p>
+ <br><br>
+ <p class="centeralign">General enquiries - +02 4921 5888</p>
+ <br><br>
+</div>
+</div>
+</div>
+
+<br>
+<footer class="footer">  
+	<div>
+	  <h6>UoN Orientation Site</h6>
+	  <div class="footer-links">
+		<a href="home.html">Home</a></li>
+		<a href="about.html">About</a></li>
+		<a href="todo.html">To-Do</a></li>
+		<a onclick="services();">Services</a></li>
+		<a onclick="staff();">Staff</a></li>
+		<a href="faq.html">FAQ</a></li>
+</div>
+<div class="footer-links">
+	<br>
+<a href class="AdminLogin.aspx">Admin Login</a>
+<br><br>
+</div>
+	</div>
+	</div>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>

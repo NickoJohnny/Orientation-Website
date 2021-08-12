@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/jpg" href="Media/favicon.png"/>
+	<script src="script.js"></script>
+	<title>UoN Services</title>
+   
+</head>
+	<body>
+		<div class="topnav">
+		<img class="logoimg" src="Media/favicon.png">
+	  	<a href="home.html">Home</a>
+	  	<a href="about.html">About</a>
+      	<a href="todo.html">To-Do List</a>
+		<a class="active"#services>Services</a>
+        <a href="Staff.aspx">Staff</a>
+
+	  	<a href="faq.html">FAQ</a>
+
+	  	<button onclick="changeCampusDropdown();" class="changeCampus">
+			<span id="currentCampus"></span>
+			 <hr>
+			 <span>Change Campus</span>
+		 </button>
+		 
+    	<div id="menuDropdown" class="dropdown-campus">
+    	    <a OnClick="changeCallaghan(); services();">Callaghan</a>
+    	    <a OnClick="changeNuSpace(); services();">NuSpace</a>
+    	    <a OnClick="changeOurimbah(); services();">Ourimbah</a>
+      </div>
+    </div>
+	
+	<h1>Ourimbah Services</h1>
+	<h3 class="homepadding">A list of all services provided by or via the university</h3>
+
+<!--START_Service_Cards-->
+	<div class="servicecards">
+		<div class="servicecard" onclick="openTab('http://www.yourgym.com.au/');">
+		   <img class="servicecard__img" src="Media/CC_Gym.jpg" alt="">
+			   <div class="service__content">
+				<h2>Your Gym</h2>
+				<h4>Gym & Exercise Centre</h4>
+		   
+				<p class="ptext">Your Gym provides Cardio, Strength and fitness classes for University students at Ourimbah Campus</p>
+				<br>
+				<p class="centeralign">Currently Closed due to COVID</p>
+			</div>
+    <div class="servicecard__info centeralign">
+		<p class="centeralign">Exercise & Sport Science Building, Ourimbah Campus</p> 
+		<p class="centeralign">General Enquiries - yourgym@yourimbah.com.au, 4348 4194</p>
+	</div>
+</div>
+
+
+	<div class="servicecard" onclick="openTab('https://shop.newcastle.edu.au/');">
+	   <img class="servicecard__img" src="Media/CC_Shop.jpg" alt="Image of The Shop">
+		   <div class="service__content">
+			<h2>The Shop</h2>
+			<h4>Stationery & Merchandise Shop</h4>
+	   
+			<p class="ptext">The Shop is a University operated store located within Ourimbah Campus where you can get all your merchandise and stationary needs.</p>
+</div>
+<div class="servicecard__info centeralign">
+	<p class="centeralign">Student Amenities Building, Ourimbah Campus</p>
+	<p class="centeralign">Monday to Friday 9AM - 3PM</p>
+	<br>
+</div>
+</div>
+
+<div class="servicecard" onclick="openTab('https://www.newcastle.edu.au/library/access/places-and-spaces/central-coast');">
+	<img class="servicecard__img" src="Media/CC_Library.jpg" alt="">
+		<div class="service__content">
+		 <h2>Ourimbah Library</h2>
+		 <h4>Library & Study Space</h4>
+	
+		 <p class="ptext">Ourimbah's Library provides numerous services for students from information centres with computers and printers to a MakerSpace where students can learn more about utilising technology for creative reasons and problem solving.</p>
+</div>
+<div class="servicecard__info centeralign">
+ <p class="centeralign">Administration Building, Ourimbah NSW 2258</p> 
+ <p class="centeralign">General Enquiries - +61 (0)2 4348 4020</p>
+ <br>
+
+</div>
+</div>
+
+<div class="servicecard" onclick="openTab('https://www.newcastle.edu.au/campus-life/central-coast/ourimbah/spaces-and-places/food,-shops-and-bars');">
+	<img class="servicecard__img" src="Media/CC_GandaBurung.jpg" alt="Ganda Burung Logo" title="Ganda Burung Logo">
+		<div class="service__content">
+		 <h2>Ganda Burung</h2>
+		 <h4>Food Shop</h4>
+	
+		 <p class="ptext">Ganda Burung is known as the food shelter which provides University students with a place to eat and talk with others.</p>
+</div>
+<div class="servicecard__info centeralign">
+ <p class="centeralign">SA-136, Student Amenities building</p> 
+ <p class="centeralign">Monday to Friday 8:00am - 2:00pm</p>
+ <p class="centeralign"></p>
+ <br>
+</div>
+</div>
+
+<div class="servicecard" onclick="openTab('https://www.newcastle.edu.au/campus-life/central-coast/ourimbah/spaces-and-places/food,-shops-and-bars');">
+	<img class="servicecard__img" src="Media/CC_YaraNgura.jpg" alt="Yara Ngura Logo" title="Yara Ngura Logo">
+		<div class="service__content">
+		 <h2>Yara Ngura</h2>
+		 <h4>Library Café</h4>
+	
+		 <p class="ptext">Outside the Oruimbah library is Yara Ngura, a coffee and meal shop known as the Gumtree place.</p>
+</div>
+<div class="servicecard__info centeralign">
+ <p class="centeralign">IRC-101a, Ourimbah Library</p> 
+ <p class="centeralign">Monday to Friday 8AM - 3PM</p>
+ <p class="centeralign"></p>
+ <br>
+
+</div>
+<br>
+</div>
+
+<!--START_Food_Pantry-->
+<div class="servicecard">
+	<div onclick="openTab('https://www.newcastle.edu.au/library/access/places-and-spaces/central-coast');">
+		<img class="servicecard__img" src="Media/CC_UNSA_Pantry.jpg" alt="">
+			<div class="service__content">
+				 <h2>Food Pantry</h2>
+				 <h4>Free Food</h4>
+					<p class="ptext">Are you short on time, funds, or experiencing hardship? The Newcastle Students' Association (UNSA) has your needs in mind with their Food Pantry. An initiative aiming to provide food for those in need. Do not hesitate to donate items you don't need.</p>
+			</div>
+	</div>
+	
+	<!--servicecard__info is in a separate div to prevent misclicks when clicking email or phone number (above elements direct to webpage for the service.-->
+	<div class="servicecard__info centeralign">
+		 <p class="centeralign">Shop101, Ourimbah NSW 2258</p> 
+		 <p class="centeralign">
+			 Email - <a href ="mailto: unsa@newcastle.edu.au">unsa@newcastle.edu.au</a>
+			 <br>
+			 Phone - <a href="tel:+0243484260">(02)4348 4260</a>
+		 </p>
+	</div>
+</div>
+<!--END_Food_Pantry-->
+
+<!--START_Medical_Centre-->
+<div class="servicecard">
+	<div onclick="openTab('https://www.newcastle.edu.au/current-students/uni-life/campus/campus-amenities/medical-centres');">
+		<img class="servicecard__img" src="Media/CC_Medical.jpg" alt="Ourimbah Campus Medical Centre">
+			<div class="service__content">
+				 <h2>Medical Centre</h2>
+				 <h4>Campus Doctor</h4>
+					<p class="ptext">Dr Jillian Kerry Horadam is available by appointment for your medical needs between 9am and 4pm on Tuesday, Wednesday and Friday.</p>
+			</div>
+	</div>
+	
+	<!--servicecard__info is in a separate div to prevent misclicks when clicking email or phone number (above elements direct to webpage for the service.-->
+	<div class="servicecard__info centeralign">
+		<p class="centeralign">Student Support Unit, adjacent to the Library</p> 
+		<p class="centeralign">
+			Email - <a href ="mailto: unsa@newcastle.edu.au">unsa@newcastle.edu.au</a>
+			<br>
+			Phone - <a href="tel:+0243484060">(02) 4348 4060</a>
+		</p>
+	</div>
+</div>
+<!--END_Medical_Centre-->
+
+<!--START_Chaplaincy-->
+<div class="servicecard">
+	<div onclick="openTab('https://www.newcastle.edu.au/current-students/support/personal/chaplaincy');">
+		<img class="servicecard__img" src="Media/Chaplaincy.jpg" alt="Chaplaincy" title="Newcastle University Chaplaincy Service">
+			<div class="service__content">
+				 <h2>Chaplaincy</h2>
+				 <h4>Compassionate Support</h4>
+					<p class="ptext">Our chaplains are here to support all students, religious or not, no matter the circumstances.</p>
+			</div>
+	</div>
+	
+	<div class="servicecard__info centeralign">
+		<p class="centeralign">C1.14, Student Support Unit (adjacent to the Library)</p> 
+		<p class="centeralign">
+			Phone - <a href="tel:+0243484036">(02) 4348 4036</a>
+			<br /> <br />
+		</p>
+	</div>
+</div>
+<!--END_Chaplaincy-->
+
+</div>
+<!--END_Service_Cards-->
+
+<br>
+<footer class="footer">  
+	<div>
+	  <h6>UoN Orientation Site</h6>
+	  <div class="footer-links">
+		<a href="home.html">Home</a></li>
+		<a href="about.html">About</a></li>
+		<a href="todo.html">To-Do</a></li>
+		<a onclick="services();">Services</a></li>
+		<a onclick="staff();">Staff</a></li>
+		<a href="faq.html">FAQ</a></li>
+</div>
+<div class="footer-links">
+	<br>
+<a href class="AdminLogin.aspx">Admin Login</a>
+<br><br>
+</div>
+	</div>
+	</div>
+  </div>
+</div>
+</footer>
+
+	 
+	
+
+
+	</body>
+</html>
