@@ -313,3 +313,16 @@ li {
 		.a_slides input[type="radio"]:nth-of-type(3):checked ~ .a_slide {
 			transform: translateX(-200%);
 		}
+.masonry {
+    column-count: 3;
+    column-gap: 0;
+}
+.item_p {
+    padding: 2px;
+   
+}
+.item_p img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
