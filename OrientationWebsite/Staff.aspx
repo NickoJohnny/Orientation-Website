@@ -23,7 +23,7 @@
     <form id="form1" runat="server">
         <h2>COLLEGE OF HUMAN AND SOCIAL FUTURES</h2>
             <div>
-                <asp:GridView ID="GridView1" runat="server"> </asp:GridView>
+                <asp:GridView ID="GridView1" runat="server" BorderStyle="None" GridLines="None"> </asp:GridView>
             </div>
 
         <h2>COLLEGE OF ENGINEERING, SCIENCE AND ENVIRONMENT</h2>
