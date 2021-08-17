@@ -7,6 +7,12 @@
     <title>Staff</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="script.js" type="text/javascript"></script>
+    <style type="text/css">
+        .auto-style1 {
+            margin: auto;
+            width: 64%;
+        }
+    </style>
 </head>
 <body>
     <div class="topnav">
@@ -23,17 +29,17 @@
     <form id="form1" runat="server">
         <h2>COLLEGE OF HUMAN AND SOCIAL FUTURES</h2>
             <div>
-                <asp:GridView ID="GridView1" runat="server" BorderStyle="None" GridLines="None"> </asp:GridView>
+                <asp:Gridview CssClass="center"  ID="GridView1" runat="server" BorderStyle="None" GridLines="None"></asp:Gridview>
             </div>
 
         <h2>COLLEGE OF ENGINEERING, SCIENCE AND ENVIRONMENT</h2>
             <div>
-                <asp:GridView ID="GridView2" runat="server"> </asp:GridView>
+                <asp:GridView CssClass="center" ID="GridView2" runat="server"> </asp:GridView>
             </div>
 
         <h2>COLLEGE OF HEALTH, MEDICINE AND WELLBEING</h2>
             <div>
-                <asp:GridView ID="GridView3" runat="server"> </asp:GridView>
+                <asp:GridView CssClass="center" ID="GridView3" runat="server"> </asp:GridView>
             </div>
     </form>
 </body>
