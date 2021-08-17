@@ -18,8 +18,7 @@
                         <asp:TextBox ID="Title" runat="server" Width="308px"></asp:TextBox>  
                     </td> 
                     <td>
-                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Enter Staff Title" ControlToValidate="Title" ValidationGroup="Add"></asp:RequiredFieldValidator>
-                    </td>
+                         &nbsp;</td>
   
                </tr> 
                 <tr>  
@@ -44,6 +43,13 @@
                      <td> <asp:TextBox ID="TextBox2" runat="server" Width="308px"></asp:TextBox></td>
                     <td>
                          <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Enter Staff Description" ControlToValidate="TextBox2" ValidationGroup="Add"></asp:RequiredFieldValidator>
+                    </td>
+                </tr>
+                <tr>  
+                    <td>Staff Contact: </td>  
+                     <td> <asp:TextBox ID="Contact" runat="server" Width="308px"></asp:TextBox></td>
+                    <td>
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Enter Staff Contact" ControlToValidate="Contact" ValidationGroup="Add"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>

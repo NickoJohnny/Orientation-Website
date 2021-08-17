@@ -16,7 +16,7 @@ namespace OrientationWebsite
         {
             if (Session["Sid"] == null)
             {
-                //Response.Redirect("Login.aspx");
+                Response.Redirect("Login.aspx");
             }
 
             if (!Page.IsPostBack)
@@ -44,12 +44,13 @@ namespace OrientationWebsite
             string connStr = ConfigurationManager.ConnectionStrings["StaffDB"].ConnectionString;
             SqlConnection conn = new SqlConnection(connStr);
 
-            using (SqlCommand cmd = new SqlCommand("INSERT INTO dbo.StaffDB(StaffTitle, StaffFirst, StaffLast, StaffDescription, CategoryID) VALUES(@StaffTitle, @StaffFirst, @StaffLast, @StaffDescription, @CategoryID)", conn))
+            using (SqlCommand cmd = new SqlCommand("INSERT INTO dbo.StaffDB(StaffTitle, StaffFirst, StaffLast, StaffDescription, StaffContact, CategoryID) VALUES(@StaffTitle, @StaffFirst, @StaffLast, @StaffDescription, @StaffContact, @CategoryID)", conn))
             {
                 cmd.Parameters.AddWithValue("@StaffTitle", Title.Text);
                 cmd.Parameters.AddWithValue("@StaffFirst", First.Text);
                 cmd.Parameters.AddWithValue("@StaffLast", Last.Text);
                 cmd.Parameters.AddWithValue("@StaffDescription", TextBox2.Text);
+                cmd.Parameters.AddWithValue("@StaffContact", Contact.Text);
                 cmd.Parameters.AddWithValue("@CategoryID", DropDownList1.SelectedValue);
 
                 conn.Open();
