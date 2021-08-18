@@ -20,13 +20,14 @@
 
     <form id="form1" runat="server"> 
         <h1>Admin Login</h1>
-        <table class="auto-style1">  
+        <table style="padding-top:15px;">  
                 <tr>
                     <td class="auto-style2">
-                        <asp:Label ID="Label1" runat="server" Text="Name" Font-Bold="True" Width="100px"></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text="Username" Font-Bold="True" Width="100px"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox_user_name" runat="server" Width="100px"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox_user_name" ErrorMessage="Enter Username"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -35,10 +36,11 @@
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox_password" runat="server" TextMode="Password" Width="100px"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox_password" ErrorMessage="Enter Password"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
             </table>
-            <asp:Label ID="lb1" runat="server"></asp:Label><br />
+            <br />
             <asp:Button ID="btn_login" runat="server" Text="Login" Font-Bold="True" onclick="btn_login_Click"/>
     </form>
 </body>

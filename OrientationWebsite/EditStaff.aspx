@@ -4,9 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Edit Staff</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <div class="topnav">
+		<img class="logoimg" src="Media/favicon.png" />
+	  	<a href="home.html">Home</a>
+	  	<a href="about.html">About</a>
+      	<a href="todo.html">To-Do List</a>
+		<a onclick="services();">Services</a>
+        <a href="Staff.aspx">Staff</a>
+	  	<a href="faq.html">FAQ</a>
+    </div>
     <form id="form2" runat="server">
         <h1>Edit Staff</h1>
         <h2>Add Staff</h2>

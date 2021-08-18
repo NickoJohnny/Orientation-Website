@@ -45,10 +45,6 @@ namespace OrientationWebsite
                     Session["Sid"] = Session.SessionID;
                     Response.Redirect("EditStaff.aspx");
                 }
-                else
-                {
-                    lb1.Text = "Invalid User Name or Password! Please try again!";
-                }
             }
 
         }
