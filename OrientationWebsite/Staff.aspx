@@ -7,15 +7,10 @@
     <title>Staff</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="script.js" type="text/javascript"></script>
-    <style type="text/css">
-        .auto-style2 {
-            margin: auto;
-        }
-    </style>
 </head>
 <body>
     <div class="topnav">
-		<img class="logoimg" src="Media/favicon.png">
+		<img class="logoimg" src="Media/favicon.png" />
 	  	<a href="home.html">Home</a>
 	  	<a href="about.html">About</a>
       	<a href="todo.html">To-Do List</a>
