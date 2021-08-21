@@ -337,9 +337,9 @@ li {
 
 .plan2 h2 {
     position: relative;
-    font-family: 'FuseV2';
-    font-size: 60px;
-    font-weight: 1000;
+    font-family: 'FuseV2','Helvetica Neue',Arial,sans-serif;
+    font-size: 40px;
+    font-weight: 800;
     color: #2D3138;
     margin: 60px 0 0 20px;
 }
