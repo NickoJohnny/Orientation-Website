@@ -225,7 +225,7 @@ li {
 .rank_d::before {
     content: '\e9ca';
     font-family: 'icomoon';
-    color: skyblue;
+    color: rgb(135, 169, 182);
     font-size: 50px;
     margin-bottom: 15px;
     
