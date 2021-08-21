@@ -383,3 +383,38 @@ li {
 .f_r {
     float: right;
 }
+
+.rank_t {
+    position: relative;
+    margin: 20px;
+    font-family: 'FuseV2','Helvetica Neue',Arial,sans-serif;
+    font-weight: 800;
+}
+
+.rank_t::after {
+    content: "";
+    position: absolute;    
+    left: 0;
+    width: 100px;
+    background: #1090D5;
+    height: 4px;
+    border-radius: 4px;
+    bottom: -10px;
+}
+
+.qs_rank a {
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    display: block;
+    width: 49%;
+    height: 100px;
+    background-color: grey;
+}
+.qs_rank a:hover {
+    background-color: #1090D5;
+}
+
+.qs_rank div {
+    clear: both;
+}
