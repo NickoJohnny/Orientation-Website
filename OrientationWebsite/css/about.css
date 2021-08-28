@@ -47,8 +47,9 @@
     margin: 0;
 }
 .tab_list li{
+    
     height: 80px;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     color: white;
     background-color: #0b3178;
     line-height: 80px;
