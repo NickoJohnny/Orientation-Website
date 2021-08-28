@@ -444,3 +444,19 @@ li {
     margin: 30px 0 40px;
     
 }
+
+.map_b {
+    width: 200px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.map_b:hover {
+    color: white;
+    background-color: #1090D5;
+    border: 3px solid #1090D5;
+}
