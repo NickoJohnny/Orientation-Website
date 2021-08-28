@@ -165,7 +165,7 @@ li {
 .rank_c {
     
     width: 33.3%;
-    margin-left: 0.2%;
+    margin-left: 1px;
     padding: 10px 12px;
     text-align: center;
     display: flex;
