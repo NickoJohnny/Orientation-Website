@@ -179,12 +179,14 @@ li {
     
 }
 .rank_c:hover {
+    
     background-color: rgb(58, 159, 218);
     color: white;
     border: 3px solid rgb(58, 159, 218);
     border-bottom: 0px solid;
 }
 .current2 {
+    
     background-color: rgb(58, 159, 218);
     color: white;
     border: 3px solid rgb(58, 159, 218);
