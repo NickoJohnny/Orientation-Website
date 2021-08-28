@@ -247,10 +247,39 @@ li {
     font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 
-.rank_d::before {
+.rank_d:nth-child(1)::before{
     content: '\e9ca';
     font-family: 'icomoon';
-    color: rgb(135, 169, 182);
+    color: rgb(96, 174, 211);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.rank_d:nth-child(2)::before{
+    content: '\e9ca';
+    font-family: 'icomoon';
+    color: rgb(96, 174, 211);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.rank_d:nth-child(3)::before{
+    content: '\e972';
+    font-family: 'icomoon';
+    color: rgb(96, 174, 211);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.rank_d:nth-child(4)::before{
+    content: '\e9ca';
+    font-family: 'icomoon';
+    color: rgb(96, 174, 211);
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.rank_d:nth-child(5)::before{ 
+    content: '\e99c';
+    font-family: 'icomoon';
+    color: rgb(96, 174, 211);
     font-size: 50px;
     margin-bottom: 15px;
     
