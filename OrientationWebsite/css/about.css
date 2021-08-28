@@ -152,6 +152,8 @@ li {
 .rank {
     display: flex;
     padding: 0;
+    margin: 0;
+    margin-top: 2%;
 }
 
 .rank_d {
@@ -165,20 +167,43 @@ li {
 .rank_c {
     /* border: 1px solid pink ; */
     width: 33%;
-    padding: 0 12px;
+    margin-left: 0.5%;
+    padding: 10px 12px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    border: 3px solid rgb(199, 193, 193);
+    border-bottom: 0px solid;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #eee;
+    
+}
+.rank_c:hover {
+    background-color: rgb(58, 159, 218);
+    color: white;
+    border: 3px solid rgb(58, 159, 218);
+    border-bottom: 0px solid;
+}
+.current2 {
+    background-color: rgb(58, 159, 218);
+    color: white;
+    border: 3px solid rgb(58, 159, 218);
+    border-bottom: 0px solid;
+}
+.rank_c strong {
+    font-size: 30px;
 }
 
-.rank_c::before {
+/* .rank_c::before {
     content: '\e921';
     font-family: 'icomoon';
     color: orange;
     font-size: 50px;
     margin-bottom: 15px;
     
-}
+} */
 .rank_a:hover strong{
     color: #06c;
 }
