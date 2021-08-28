@@ -403,16 +403,26 @@ li {
 }
 
 .qs_rank a {
+    line-height: 50px;
     text-align: center;
-    line-height: 100px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: white; 
     float: left;
     display: block;
-    width: 49%;
-    height: 100px;
-    background-color: grey;
+    width: 33%;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(82, 102, 187);
+    
 }
+
 .qs_rank a:hover {
-    background-color: #1090D5;
+    
+    background-color: black;
 }
 
 .qs_rank div {
