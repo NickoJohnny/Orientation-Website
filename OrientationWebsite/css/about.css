@@ -165,9 +165,9 @@ li {
     
 }
 .rank_c {
-    /* border: 1px solid pink ; */
-    width: 33%;
-    margin-left: 0.5%;
+    
+    width: 33.3%;
+    margin-left: 0.2%;
     padding: 10px 12px;
     text-align: center;
     display: flex;
