@@ -37,7 +37,7 @@
 
         <h2 style="text-align: center; padding-top:30px;">COLLEGE OF HEALTH, MEDICINE AND WELLBEING</h2>
             <div>
-                <asp:GridView CssClass="auto-style2" ID="GridView3" runat="server" CellPadding="10" GridLines="Horizontal" BorderStyle="None" Width="75%">
+                <asp:GridView CssClass="center" ID="GridView3" runat="server" CellPadding="10" GridLines="Horizontal" BorderStyle="None" Width="75%">
                     <RowStyle HorizontalAlign="Center" />
                 </asp:GridView>
             </div>
