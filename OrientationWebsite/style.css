@@ -21,30 +21,18 @@ a:visited {
 	transition: 0.4s
 }
 
-.todobutton {
-	font-size: 24pt;
-	background-color: rgba(226, 226, 226, 0.76);
-	height: 80px;
-	width: 170px;
-	cursor: pointer;
-	margin: 0;
-	position: absolute;
-    transform: translate(0px, 15%);
-    position: relative;
-	margin-bottom: 12px;
-}
-
 .changeCampus {
 	margin-left: auto;
 	white-space: nowrap;
 	height: 80px;
-	width: 150px;
-	font-size: 14pt;
+	width: 170px;
+	font-size: 16pt;
 	border-radius: 8px;
-	background-color: #ffffff09;
+	background-color: #ffffff03;
 	cursor: pointer;
 	border: none;
 	color: #fff;
+	margin-right: 10px;
 	box-shadow: 12px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -52,17 +40,16 @@ a:visited {
 	display: none;
 	border-radius: 16px;
 	position: absolute;
-	background-color: #f0f0f004;
-	min-width: 140px;
+	background-color: #ffffff09;
+	min-width: 170px;
 	box-shadow: 6px 8px 16px 0px rgba(0, 0, 0, 0.274);
 	z-index: 1;
 	cursor: pointer;
 	left: auto;
 	right: 0;
 	margin-right: 8px;
-	margin-top: 78px;
+	margin-top: 80px;
 }
-
 
 .topnav {
 	display: flex;
@@ -70,14 +57,6 @@ a:visited {
 	text-align: center;
 	height: 80px;
 	background-color: rgb(38,39,43);
-}
-
-.topnav2 {
-	display: flex;
-	overflow: hidden;
-	text-align: center;
-	height: 80px;
-	margin-bottom: 20px;
 }
 
 	.topnav a {
@@ -98,28 +77,6 @@ a:visited {
 			font-size: 20pt;
 			background-color:transparent;
 			color: #e7ad25;
-}
-
-.topnav2 a {
-	white-space: nowrap;
-	color: #eaeaea;
-	text-align: center;
-	padding: 30px 15px;
-	text-decoration: none;
-	font-size: 20px;
-	text-shadow: 1px 1px #a0a0a0;
-
-}
-
-	.topnav2 a:hover {
-		transform: scale(1.1);
-		transition: 0.2s
-	}
-
-	.topnav2 a.active {
-		font-size: 20pt;
-		background-color:transparent;
-		color: #e7ba25;
 }
 
 
@@ -388,6 +345,19 @@ a:visited {
 	cursor: pointer;
 }
 
+.todobutton {
+	font-size: 24pt;
+	background-color: rgba(226, 226, 226, 0.76);
+	height: 80px;
+	width: 170px;
+	cursor: pointer;
+	margin: 0;
+	position: absolute;
+    transform: translate(0px, 15%);
+    position: relative;
+	margin-bottom: 12px;
+}
+
 /* To-Do Page Cards */
 .cards {
 	margin: 0 auto;
@@ -544,7 +514,7 @@ text-decoration: none;
 	width: 100%;
 	padding: 1px;
 	text-align: center;
-	background: #ffffff;
+	background: rgba(245, 239, 239, 0.898);
 	border-right: 2px solid #333333;
 	border-left: 2px solid #333333;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -555,7 +525,7 @@ text-decoration: none;
 	justify-content: space-between;
 	align-items: center;
 	color: #555555;
-	background: #eeeeee;
+	background: #e2e1e1;
 	font-size: 0.7em;
 	border-bottom: 2px solid #333333;
 	border-right: 2px solid #333333;
