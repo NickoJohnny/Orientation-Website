@@ -86,7 +86,7 @@ a:visited {
 		text-align: center;
 		padding: 30px 15px;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 22px;
 	}
 
 		.topnav a:hover {
@@ -131,7 +131,7 @@ a:visited {
 	padding: 30px 15px;
 	text-decoration: none;
 	font-size: 85px;
-	text-shadow: 3px 3px 3px #a0a0a0;
+	text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .hometitle2  {
@@ -156,9 +156,8 @@ a:visited {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	grid-auto-rows: auto;
-	gap: 40px;
+	gap: 20px;
 	padding-top: 100px;
-	margin-bottom: 5%;
 }
 
 	.homecards * {
@@ -167,15 +166,13 @@ a:visited {
 	}
 
 .homecard__content {
-	line-height: 1.2;
-	font-size: 0.9em;
-	width: 100%;
-	height: 200px;
-	padding: 1px;
-	text-align: center;
-	background: rgba(109, 100, 100, 0.808);
+	width: 90%;
+	height: 150px;
+	background: rgba(121, 116, 116, 0.787);
 	border: 2px solid #333333;
+	border-radius: 16px;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.274), 0 6px 20px 0 rgba(0, 0, 0, 0.308);
+	text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .homebutton {
@@ -205,6 +202,10 @@ a:visited {
 .center {
 	margin: auto;
 	width: 60%;
+}
+
+.h2button {
+	font-size: 25pt;
 }
 
 
