@@ -56,7 +56,7 @@
         </div>
   <div class="footer-links">
       <br/>
-  <a href="Login.aspx">Admin Login</a>
+  <a href="StaffEdit.aspx">Admin Login</a>
   <br/><br/>
   </div>
 </div>

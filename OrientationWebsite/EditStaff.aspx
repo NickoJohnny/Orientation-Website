@@ -65,14 +65,15 @@
                 <tr>
                     <td>Staff Category</td>
                     <td>
-                     <asp:DropDownList ID="DropDownList1" runat="server">  
+                     <asp:DropDownList ID="DropDownList1" runat="server"> 
+                            <asp:ListItem Text="Select Category" Value="0"></asp:ListItem>
                             <asp:ListItem Text="College Of Human Aand Social Futures" Value="1"></asp:ListItem>  
                             <asp:ListItem Text="College Of Engineering, Science And Enviroment" Value="2"></asp:ListItem>  
                             <asp:ListItem Text="College Of Health, Medicine And Wellbeing" Value="3"></asp:ListItem>
                         </asp:DropDownList>  
                     </td>
                     <td>
-                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Choose Staff Category" ControlToValidate="DropDownList1" ValidationGroup="Add"></asp:RequiredFieldValidator>
+                         <asp:CompareValidator ID="CompareValidator2" runat="server" ErrorMessage="Choose Category" Operator="NotEqual" ValueToCompare="0" Type="Integer" ValidationGroup="Add" ControlToValidate="DropDownList1"></asp:CompareValidator>
                     </td>
                 </tr>
                 <tr>  
