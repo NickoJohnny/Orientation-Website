@@ -16,7 +16,7 @@ namespace OrientationWebsite
             string connStr = ConfigurationManager.ConnectionStrings["StaffDB"].ConnectionString;
             SqlConnection conn = new SqlConnection(connStr);
 
-            string sql1 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Title], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 1 ORDER BY StaffDescription";
+            string sql1 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 1 ORDER BY StaffDescription";
             SqlCommand cmd1 = new SqlCommand(sql1, conn);
 
             conn.Open();
@@ -28,7 +28,7 @@ namespace OrientationWebsite
 
             conn.Close();
 
-            string sql2 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 2; ";
+            string sql2 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 2; ORDER BY StaffDescription";
             SqlCommand cmd2 = new SqlCommand(sql2, conn);
 
             conn.Open();
@@ -40,7 +40,7 @@ namespace OrientationWebsite
 
             conn.Close();
 
-            string sql3 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Title], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 3; ";
+            string sql3 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 3; ORDER BY StaffDescription";
             SqlCommand cmd3 = new SqlCommand(sql3, conn);
 
             conn.Open();
