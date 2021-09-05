@@ -525,7 +525,7 @@ li {
     border: 3px solid #1090D5;
 }
 
-}
+
 .list_d::after {
     content: "";
     display: block;
