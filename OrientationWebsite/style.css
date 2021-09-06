@@ -407,6 +407,7 @@ text-decoration: none;
 
 .card__content {
 	line-height: 1.3;
+	height: 295px;
 	font-size: 0.9em;
 	padding: 1px;
 	text-align: center;
