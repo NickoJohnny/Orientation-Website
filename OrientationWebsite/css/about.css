@@ -629,3 +629,48 @@ li {
     font-size: 20px;   
     color: white;
 }
+.r_plan {
+    display: flex;
+}
+.r_plan a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    height: 100px;
+    width: 49%;
+    background: none;
+    padding: 0;
+    background-color: rgb(96, 174, 211);
+    color: white;
+    border-radius: 4px;
+}
+
+.r_plan a:hover {
+    background-color: white;
+    color: rgb(96, 174, 211);
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.r_plan a:hover div::before  {
+    color: rgb(96, 174, 211);
+}
+.r_plan a p {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    bottom: 15px;
+    left: 0;
+    margin: 0;
+    
+}
+
+.r_plan div::before{
+    content: '\e9ca';
+    font-family: 'icomoon';
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    left: 17px;
+    /* margin-bottom: 5px; */
+}
