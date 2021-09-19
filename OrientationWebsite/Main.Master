@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="OrientationWebsite.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="icon" type="image/jpg" href="Media/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <script src="script.js"></script>
+    <script src="todo.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%-- Top navigation --%>
+        <div class="topnav">
+            <img class="logoimg" src="Media/favicon.png">
+    	    <a id="Home" href="home.html" runat="server">Home</a>
+    	    <a id="About" href="about.html" runat="server">About</a>
+            <a id="ToDo" href="todo.html" runat="server">To-Do List</a>
+    	    <a id="Services" onclick="services();" runat="server">Services</a>
+            <a id="Staff" href="Staff.aspx" runat="server">Staff</a>
+    	    <a id="FAQ" href="faq.html" runat="server">FAQ</a>
+        </div>
+
+
+        <%-- Page content placeholder --%>
+        <asp:ContentPlaceHolder ID="body" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+
+        <%-- Footer --%>
+        <footer class="footer">  
+            <div>
+                <h6>UoN Orientation Site</h6>
+
+                <div class="footer-links">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="todo.html">To-Do</a>
+                    <a onclick="services();">Services</a>
+                    <a onclick="staff();">Staff</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+
+                <div class="footer-links">
+                    <br>
+                    <a href="Login.aspx">Admin Login</a>
+                    <br><br>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
