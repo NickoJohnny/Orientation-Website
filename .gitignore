@@ -17,3 +17,7 @@ OrientationWebsite/obj/Debug/OrientationWebsite.csprojAssemblyReference.cache
 .vs/OrientationWebsite/v15/Server/sqlite3/storage.ide-wal
 OrientationWebsite/favicon.ico
 OrientationWebsite/test.travis.yml
+
+#Allow Main.Master.cs
+!OrientationWebsite/Main.Master.*
+!OrientationWebsite/MasterTest.*
