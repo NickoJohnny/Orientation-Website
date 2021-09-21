@@ -14,17 +14,39 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <%-- Top navigation --%>
-        <div class="topnav">
-            <img class="logoimg" src="Media/favicon.png">
-    	    <a id="Home" href="home.html" runat="server">Home</a>
-    	    <a id="About" href="about.html" runat="server">About</a>
-            <a id="ToDo" href="todo.html" runat="server">To-Do List</a>
-    	    <a id="Services" onclick="services();" runat="server">Services</a>
-            <a id="Staff" href="Staff.aspx" runat="server">Staff</a>
-    	    <a id="FAQ" href="faq.html" runat="server">FAQ</a>
-        </div>
-
+        <%-- Top navigation - Guest --%>
+        <asp:LoginView ID="LoginView1" runat="server">
+            <AnonymousTemplate>
+                <div id="AnonView" class="topnav">
+                    <img class="logoimg" src="Media/favicon.png">
+                    <asp:HyperLink ID="Home" runat="server" NavigateUrl="home.html">Home</asp:HyperLink>
+                    <asp:HyperLink ID="About" runat="server" NavigateUrl="about.html">About</asp:HyperLink>
+                    <asp:HyperLink ID="ToDo" runat="server" NavigateUrl="about.html">ToDo List</asp:HyperLink>
+                    <asp:HyperLink ID="Services" runat="server" onclick="services();">Services</asp:HyperLink>
+                    <asp:LinkButton ID="Staff" runat="server" OnClientClick="services();return false;">Staff</asp:LinkButton>
+                    <asp:HyperLink ID="FAQ" runat="server" NavigateUrl="FAQ.html">FAQ</asp:HyperLink>
+                </div>
+            </AnonymousTemplate>
+        </asp:LoginView>
+        
+        <%-- Top navigation - Staff --%>
+        <asp:LoginView ID="LoginView2" runat="server">
+            <RoleGroups>
+                <asp:RoleGroup Roles="Admin">
+                    <ContentTemplate>
+                        <div class="topnav">
+                            <img class="logoimg" src="Media/favicon.png">
+    	                    <a id="Home" href="home.html" runat="server">Home</a>
+    	                    <a id="About" href="about.html" runat="server">About</a>
+                            <a id="ToDo" href="todo.html" runat="server">To-Do List</a>
+    	                    <a id="Services" onclick="services();" runat="server">Services</a>
+                            <a id="Staff" href="Staff.aspx" runat="server">Staff</a>
+    	                    <a id="FAQ" href="faq.html" runat="server">FAQ</a>
+                        </div>
+                    </ContentTemplate>
+                </asp:RoleGroup>
+            </RoleGroups>
+        </asp:LoginView>
 
         <%-- Page content placeholder --%>
         <asp:ContentPlaceHolder ID="body" runat="server">

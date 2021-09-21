@@ -1,4 +1,4 @@
-﻿<%@ Page Title="UoN Services" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="MasterTest.aspx.cs" Inherits="OrientationWebsite.MasterTest" %>
+﻿<%@ Page Title="UoN FAQ" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="MasterTest.aspx.cs" Inherits="OrientationWebsite.MasterTest" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
