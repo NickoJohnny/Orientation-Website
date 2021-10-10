@@ -30,7 +30,7 @@
 
         <h2 style="text-align: center; padding-top:30px;">COLLEGE OF ENGINEERING, SCIENCE AND ENVIRONMENT</h2> 
             <div>
-                <asp:GridView CssClass="center" ID="GridView2" runat="server" CellPadding="10" GridLines="Horizontal" BorderStyle="None" Width="75%">
+                <asp:GridView CssClass="center" ID="GridView2" runat="server" CellPadding="10" GridLines="Horizontal" BorderStyle="None" Width="75%" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
                     <RowStyle HorizontalAlign="Center" />
                 </asp:GridView>
             </div>

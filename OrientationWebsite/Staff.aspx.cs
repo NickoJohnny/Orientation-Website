@@ -28,7 +28,7 @@ namespace OrientationWebsite
 
             conn.Close();
 
-            string sql2 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 2; ORDER BY StaffDescription";
+            string sql2 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 2 ORDER BY StaffDescription";
             SqlCommand cmd2 = new SqlCommand(sql2, conn);
 
             conn.Open();
@@ -40,7 +40,7 @@ namespace OrientationWebsite
 
             conn.Close();
 
-            string sql3 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 3; ORDER BY StaffDescription";
+            string sql3 = "SELECT(StaffTitle + ' ' + StaffFirst + ' ' + StaffLast) AS [Name], StaffDescription AS [Degree Program], StaffContact AS [Contact Info] FROM dbo.StaffDB WHERE CategoryID = 3 ORDER BY StaffDescription";
             SqlCommand cmd3 = new SqlCommand(sql3, conn);
 
             conn.Open();
@@ -51,6 +51,11 @@ namespace OrientationWebsite
             GridView3.DataBind();
 
             conn.Close();
+        }
+
+        protected void GridView2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

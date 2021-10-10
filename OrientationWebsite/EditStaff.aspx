@@ -104,6 +104,11 @@
                 </tr>  
             </table>  
         </div>
+         <p>
+         <asp:Button ID="Logout" runat="server" Text="Logout" OnClick="EndSession" />
+
+        </p>
+
     </form>
 </body>
 </html>

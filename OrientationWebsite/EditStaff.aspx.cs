@@ -77,5 +77,11 @@ namespace OrientationWebsite
 
             Page.Response.Redirect(Page.Request.Url.ToString(), true);
         }
+
+        protected void EndSession(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("Login.aspx");
+        }
     }
 }
