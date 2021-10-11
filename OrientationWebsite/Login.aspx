@@ -6,6 +6,12 @@
 <head runat="server">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .auto-style1 {
+            margin: auto;
+            width: 24%;
+        }
+    </style>
 </head>  
 <body> 
      <div class="topnav">
@@ -20,7 +26,8 @@
 
     <form id="form1" runat="server"> 
         <h1>Admin Login</h1>
-        <table style="padding-top:15px;">  
+        <div style ="padding-top:100px;">
+        <table style="padding-top:15px;" class ="auto-style1"> 
                 <tr>
                     <td class="auto-style2">
                         <asp:Label ID="Label1" runat="server" Text="Username" Font-Bold="True" Width="100px"></asp:Label>
@@ -39,9 +46,14 @@
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox_password" ErrorMessage="Enter Password"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="btn_login" runat="server" Text="Login" Font-Bold="True" onclick="btn_login_Click"/>
+                   </td>
+                </tr>
             </table>
             <br />
-            <asp:Button ID="btn_login" runat="server" Text="Login" Font-Bold="True" onclick="btn_login_Click"/>
+        </div>
     </form>
 </body>
 </html>
